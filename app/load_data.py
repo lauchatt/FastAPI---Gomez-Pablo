@@ -5,7 +5,7 @@ import os
 from app.database import SessionLocal, engine
 from app.models import Base, Question
 
-DATASET_URL = "https://huggingface.co/datasets/minhaozhang/minecraft-question-answer-500k/resolve/refs%2Fconvert%2Fparquet/default/train/0000.parquet"
+DATASET_URL = "https://huggingface.co/datasets/ddorin/minecraft-question-answer-1.1k/resolve/refs%2Fconvert%2Fparquet/default/train/0000.parquet"
 
 
 def download_parquet(url: str) -> str:
@@ -22,7 +22,7 @@ def load_questions():
     Base.metadata.create_all(bind=engine)
 
     parquet_path = download_parquet(DATASET_URL)
-    df = pd.read_parquet(parquet_path).head(1000)
+    df = pd.read_parquet(parquet_path).head(1100)
     os.unlink(parquet_path)
 
     print(f"Columnas disponibles: {list(df.columns)}")

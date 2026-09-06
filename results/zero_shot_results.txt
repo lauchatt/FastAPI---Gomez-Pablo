@@ -1,0 +1,815 @@
+RESULTADOS - ZERO-SHOT CLASSIFICATION
+======================================================================
+
+Modelo: facebook/bart-large-mnli
+Método: Zero-Shot Classification
+Preguntas evaluadas: 100
+
+======================================================================
+ID: 1
+Pregunta: What is the purpose of tutorial hints in the Survival mode of Minecraft?
+Humano: tutorials
+Zero-Shot: tutorials
+Confianza: 62.41%
+Correcto: True
+
+======================================================================
+ID: 2
+Pregunta: What is the purpose of the progress bar in tutorial hints in Minecraft?
+Humano: tutorials
+Zero-Shot: tutorials
+Confianza: 62.79%
+Correcto: True
+
+======================================================================
+ID: 5
+Pregunta: How do you get to the last level in Super Mario Bros?
+Humano: misc
+Zero-Shot: commands
+Confianza: 14.49%
+Correcto: False
+
+======================================================================
+ID: 6
+Pregunta: What is the main tutorial in Minecraft?
+Humano: tutorials
+Zero-Shot: tutorials
+Confianza: 51.61%
+Correcto: True
+
+======================================================================
+ID: 7
+Pregunta: What are some common issues you may encounter when playing in a tutorial world and how can you troubleshoot them in Minecraft?
+Humano: tutorials
+Zero-Shot: tutorials
+Confianza: 60.36%
+Correcto: True
+
+======================================================================
+ID: 8
+Pregunta: What are the names of the tutorial worlds in the TU series of Minecraft worlds?
+Humano: tutorials
+Zero-Shot: tutorials
+Confianza: 58.49%
+Correcto: True
+
+======================================================================
+ID: 9
+Pregunta: What were the screenshots that appeared at the end of the Xbox 360 Demo?
+Humano: misc
+Zero-Shot: redstone
+Confianza: 12.61%
+Correcto: False
+
+======================================================================
+ID: 10
+Pregunta: What is the capital of France?
+Humano: misc
+Zero-Shot: tutorials
+Confianza: 16.60%
+Correcto: False
+
+======================================================================
+ID: 11
+Pregunta: What is the recommended way to protect yourself from server administrators who may consider using bugs in shelter tutorials as a punishable offense?
+Humano: misc
+Zero-Shot: tutorials
+Confianza: 43.85%
+Correcto: False
+
+======================================================================
+ID: 12
+Pregunta: What are some key considerations for designing a small, simple farm in Minecraft, especially for early-game players or casual use?
+Humano: gameplay
+Zero-Shot: items
+Confianza: 22.18%
+Correcto: False
+
+======================================================================
+ID: 13
+Pregunta: What is the best way to use the furnace in Minecraft challenge maps?
+Humano: gameplay
+Zero-Shot: commands
+Confianza: 27.01%
+Correcto: False
+
+======================================================================
+ID: 14
+Pregunta: What enchantments can you apply to a diamond sword to make it more effective against mobs that are immune to fire damage?
+Humano: items
+Zero-Shot: items
+Confianza: 52.90%
+Correcto: True
+
+======================================================================
+ID: 15
+Pregunta: What happens when a skeleton breaks a block while attacking a player in a redstone contraption, and the player is holding a diamond pickaxe?
+Humano: mobs
+Zero-Shot: mobs
+Confianza: 28.18%
+Correcto: True
+
+======================================================================
+ID: 16
+Pregunta: What is the most efficient way to create a redstone clock using a repeater and a piston in a Minecraft server running the latest snapshot?
+Humano: redstone
+Zero-Shot: redstone
+Confianza: 57.95%
+Correcto: True
+
+======================================================================
+ID: 18
+Pregunta: How can I turn on and off the paper doll in Minecraft?
+Humano: misc
+Zero-Shot: commands
+Confianza: 52.65%
+Correcto: False
+
+======================================================================
+ID: 19
+Pregunta: How does the crosshair aim control mode work when playing Minecraft on a mobile device?
+Humano: gameplay
+Zero-Shot: commands
+Confianza: 43.80%
+Correcto: False
+
+======================================================================
+ID: 20
+Pregunta: When the crosshair attack indicator is set to "Crosshair" mode, what visual cues do you see when a fully cooled weapon is in range to land a full-damage blow?
+Humano: gameplay
+Zero-Shot: items
+Confianza: 43.54%
+Correcto: False
+
+======================================================================
+ID: 21
+Pregunta: When riding a skeleton horse underwater, what additional bar appears above the mob health bar?
+Humano: mobs
+Zero-Shot: mobs
+Confianza: 38.60%
+Correcto: True
+
+======================================================================
+ID: 22
+Pregunta: What is the default setting for the GUI scale option in Minecraft?
+Humano: misc
+Zero-Shot: commands
+Confianza: 18.53%
+Correcto: False
+
+======================================================================
+ID: 23
+Pregunta: How do you enable the "sneak" feature in Minecraft when riding a mob in China?
+Humano: misc
+Zero-Shot: mobs
+Confianza: 28.74%
+Correcto: False
+
+======================================================================
+ID: 24
+Pregunta: How can you ride a Blaze mob in Minecraft without using any mods or plugins?
+Humano: mobs
+Zero-Shot: mobs
+Confianza: 44.73%
+Correcto: True
+
+======================================================================
+ID: 25
+Pregunta: What are some key factors and mechanics of Minecraft that I should learn about first as a newcomer to the game?
+Humano: gameplay
+Zero-Shot: gameplay
+Confianza: 33.11%
+Correcto: True
+
+======================================================================
+ID: 26
+Pregunta: How do I get started with Minecraft?
+Humano: misc
+Zero-Shot: tutorials
+Confianza: 69.91%
+Correcto: False
+
+======================================================================
+ID: 27
+Pregunta: Can I use a small, simple farm to provide resources for an early-game player in a challenge map?
+Humano: gameplay
+Zero-Shot: items
+Confianza: 37.40%
+Correcto: False
+
+======================================================================
+ID: 29
+Pregunta: How do I create a pulsing redstone clock using a delay mechanism and a repeater in Minecraft?
+Humano: redstone
+Zero-Shot: redstone
+Confianza: 68.40%
+Correcto: True
+
+======================================================================
+ID: 30
+Pregunta: What is the purpose of using repeaters in a redstone contraption, and how can I optimize their placement to increase the overall efficiency of my design?
+Humano: redstone
+Zero-Shot: redstone
+Confianza: 28.97%
+Correcto: True
+
+======================================================================
+ID: 32
+Pregunta: What happens to the crosshair display when playing Minecraft on a mobile device with Split Controls disabled?
+Humano: gameplay
+Zero-Shot: commands
+Confianza: 16.99%
+Correcto: False
+
+======================================================================
+ID: 33
+Pregunta: What visual indicator is used to represent weapon cooldown time in Crosshair mode, and how is it updated?
+Humano: misc
+Zero-Shot: items
+Confianza: 32.07%
+Correcto: False
+
+======================================================================
+ID: 35
+Pregunta: What is a key strategy for riding mobs effectively in Minecraft China, and how does it relate to the button at the right of the screen?
+Humano: misc
+Zero-Shot: mobs
+Confianza: 38.19%
+Correcto: False
+
+======================================================================
+ID: 36
+Pregunta: What is the most efficient way to ride a skeleton horse without getting hurt in a survival world?
+Humano: mobs
+Zero-Shot: mobs
+Confianza: 33.71%
+Correcto: True
+
+======================================================================
+ID: 39
+Pregunta: How can I use crop farming to achieve a higher resource yield in a challenge map?
+Humano: gameplay
+Zero-Shot: items
+Confianza: 18.61%
+Correcto: False
+
+======================================================================
+ID: 41
+Pregunta: What is the most efficient way to smelt Blaze Powder in Minecraft to enchant tools with Protection IV while avoiding the risk of being attacked by Blaze Mobs during the smelting process?
+Humano: gameplay
+Zero-Shot: items
+Confianza: 47.02%
+Correcto: False
+
+======================================================================
+ID: 42
+Pregunta: What is the effect of breaking a block on a nearby mob in Minecraft?
+Humano: mobs
+Zero-Shot: commands
+Confianza: 31.11%
+Correcto: False
+
+======================================================================
+ID: 43
+Pregunta: What is the effect of redstone contraptions on mob spawning in a Minecraft world?
+Humano: mobs
+Zero-Shot: redstone
+Confianza: 39.40%
+Correcto: False
+
+======================================================================
+ID: 46
+Pregunta: How do I get the most out of my Minecraft experience?
+Humano: gameplay
+Zero-Shot: gameplay
+Confianza: 39.96%
+Correcto: True
+
+======================================================================
+ID: 47
+Pregunta: What is the primary purpose of the Tutorial world in Minecraft, and how does it differ between Legacy Console Editions?
+Humano: tutorials
+Zero-Shot: tutorials
+Confianza: 78.43%
+Correcto: True
+
+======================================================================
+ID: 48
+Pregunta: What is the location of tutorials for features like beds, Nether portals, trading, boats, pistons, brewing, and fishing rods in Minecraft?
+Humano: tutorials
+Zero-Shot: items
+Confianza: 56.47%
+Correcto: False
+
+======================================================================
+ID: 49
+Pregunta: When creating a TU1 tutorial world, what are some common issues you might encounter and how can you troubleshoot them?
+Humano: tutorials
+Zero-Shot: tutorials
+Confianza: 39.34%
+Correcto: True
+
+======================================================================
+ID: 50
+Pregunta: What are the tutorial worlds featured in the TU series of Minecraft, with the last one being a screenshot from an Xbox 360 Demo?
+Humano: tutorials
+Zero-Shot: tutorials
+Confianza: 70.12%
+Correcto: True
+
+======================================================================
+ID: 51
+Pregunta: What are some of the screenshots that appeared at the end of the Xbox 360 Demo?
+Humano: misc
+Zero-Shot: commands
+Confianza: 12.92%
+Correcto: False
+
+======================================================================
+ID: 52
+Pregunta: What components of the Minecraft game are displayed on the heads-up display (HUD) when the player is in the game?
+Humano: misc
+Zero-Shot: gameplay
+Confianza: 18.37%
+Correcto: False
+
+======================================================================
+ID: 53
+Pregunta: What happens to the health, hunger, oxygen, experience, and armor bars in Minecraft Creative mode?
+Humano: misc
+Zero-Shot: gameplay
+Confianza: 30.05%
+Correcto: False
+
+======================================================================
+ID: 54
+Pregunta: How can I control my paper doll's flight mode in Minecraft mobile on Android?
+Humano: misc
+Zero-Shot: commands
+Confianza: 39.36%
+Correcto: False
+
+======================================================================
+ID: 55
+Pregunta: What is the default crosshair mode when playing Minecraft on a mobile device?
+Humano: misc
+Zero-Shot: gameplay
+Confianza: 18.34%
+Correcto: False
+
+======================================================================
+ID: 56
+Pregunta: What visual indicator appears near the crosshair when the weapon cooldown time is set to "Crosshair" mode in Minecraft?
+Humano: misc
+Zero-Shot: items
+Confianza: 36.83%
+Correcto: False
+
+======================================================================
+ID: 57
+Pregunta: What happens to the health bar when you mount a horse in Minecraft?
+Humano: misc
+Zero-Shot: gameplay
+Confianza: 36.89%
+Correcto: False
+
+======================================================================
+ID: 58
+Pregunta: What happens when you change the GUI scale option in Minecraft?
+Humano: misc
+Zero-Shot: commands
+Confianza: 37.13%
+Correcto: False
+
+======================================================================
+ID: 59
+Pregunta: How can I utilize the button at the right of the screen to improve my experience while riding mobs in Minecraft China?
+Humano: misc
+Zero-Shot: gameplay
+Confianza: 26.00%
+Correcto: False
+
+======================================================================
+ID: 60
+Pregunta: What is the most efficient way to ride a spider while avoiding its venomous bite while riding a pig?
+Humano: gameplay
+Zero-Shot: mobs
+Confianza: 39.74%
+Correcto: False
+
+======================================================================
+ID: 61
+Pregunta: What are the primary mechanics introduced to the player in the Minecraft tutorial world, regardless of the game version?
+Humano: tutorials
+Zero-Shot: tutorials
+Confianza: 49.79%
+Correcto: True
+
+======================================================================
+ID: 63
+Pregunta: What is the most effective way to resolve the issue of missing blocks in a TU1 tutorial world when loading it in Minecraft version 1.17.1?
+Humano: misc
+Zero-Shot: tutorials
+Confianza: 40.07%
+Correcto: False
+
+======================================================================
+ID: 65
+Pregunta: What are some common types of shelters that can be built in Minecraft?
+Humano: gameplay
+Zero-Shot: blocks
+Confianza: 53.49%
+Correcto: False
+
+======================================================================
+ID: 66
+Pregunta: What are some alternative farming methods to a huge automatic farm that can provide enough resources for an early-game player?
+Humano: gameplay
+Zero-Shot: items
+Confianza: 35.76%
+Correcto: False
+
+======================================================================
+ID: 67
+Pregunta: What is the best way to optimize furnace efficiency in challenge maps?
+Humano: gameplay
+Zero-Shot: commands
+Confianza: 18.94%
+Correcto: False
+
+======================================================================
+ID: 68
+Pregunta: What mobs are most resistant to the blast from an enchanted explosive potion used in smelting?
+Humano: mobs
+Zero-Shot: mobs
+Confianza: 49.59%
+Correcto: True
+
+======================================================================
+ID: 70
+Pregunta: What is the primary advantage of using a repeater in a Redstone contraption?
+Humano: redstone
+Zero-Shot: redstone
+Confianza: 14.51%
+Correcto: True
+
+======================================================================
+ID: 72
+Pregunta: How do I craft a sword in Minecraft?
+Humano: items
+Zero-Shot: items
+Confianza: 72.73%
+Correcto: True
+
+======================================================================
+ID: 73
+Pregunta: When creating a new world in Minecraft, what is the purpose of the TU1 tutorial world?
+Humano: misc
+Zero-Shot: tutorials
+Confianza: 55.57%
+Correcto: False
+
+======================================================================
+ID: 74
+Pregunta: What are the names of the tutorial worlds featured in the Xbox 360 Demo's screenshot gallery, excluding TU3 and TU19?
+Humano: misc
+Zero-Shot: tutorials
+Confianza: 41.52%
+Correcto: False
+
+======================================================================
+ID: 75
+Pregunta: What type of screenshots were shown at the end of the Xbox 360 Demo?
+Humano: misc
+Zero-Shot: redstone
+Confianza: 12.84%
+Correcto: False
+
+======================================================================
+ID: 76
+Pregunta: What are the key mechanics and factors that a newcomer to Minecraft should learn about to get a solid foundation in the game?
+Humano: gameplay
+Zero-Shot: gameplay
+Confianza: 27.71%
+Correcto: True
+
+======================================================================
+ID: 77
+Pregunta: What are some essential commands in Minecraft that a newcomer should learn to quickly navigate the game world?
+Humano: commands
+Zero-Shot: commands
+Confianza: 49.05%
+Correcto: True
+
+======================================================================
+ID: 78
+Pregunta: What is the most efficient way to build a shelter in Minecraft that can withstand a severe storm while still being aesthetically pleasing and using minimal resources?
+Humano: gameplay
+Zero-Shot: blocks
+Confianza: 39.86%
+Correcto: False
+
+======================================================================
+ID: 79
+Pregunta: How can I create a compact and efficient farm in a challenge map to optimize my resource gathering?
+Humano: gameplay
+Zero-Shot: items
+Confianza: 18.19%
+Correcto: False
+
+======================================================================
+ID: 80
+Pregunta: What is the most efficient way to enchant a large quantity of tools in a farming challenge map, considering the limited space and resources available?
+Humano: gameplay
+Zero-Shot: items
+Confianza: 48.35%
+Correcto: False
+
+======================================================================
+ID: 81
+Pregunta: Can I enchant a mob's drops with a smelting furnace using an explosion?
+Humano: mobs
+Zero-Shot: mobs
+Confianza: 24.60%
+Correcto: True
+
+======================================================================
+ID: 82
+Pregunta: When breaking a block near a mob that is already breaking a block, will the mob stop breaking the block it is currently breaking and start breaking the new block instead?
+Humano: mobs
+Zero-Shot: mobs
+Confianza: 30.28%
+Correcto: True
+
+======================================================================
+ID: 83
+Pregunta: What type of redstone contraption can be used to distract mobs in a survival game?
+Humano: redstone
+Zero-Shot: redstone
+Confianza: 39.33%
+Correcto: True
+
+======================================================================
+ID: 84
+Pregunta: What is the purpose of the 'Tick Counter' in a Redstone circuit?
+Humano: redstone
+Zero-Shot: commands
+Confianza: 18.84%
+Correcto: False
+
+======================================================================
+ID: 85
+Pregunta: What is the role of biome boundaries in determining the spawn rates of certain mobs in Minecraft, and how does this affect the overall difficulty of a survival game?
+Humano: world
+Zero-Shot: mobs
+Confianza: 73.11%
+Correcto: False
+
+======================================================================
+ID: 86
+Pregunta: What is the most effective way to optimize a challenge map for crop farming in Minecraft?
+Humano: gameplay
+Zero-Shot: commands
+Confianza: 27.34%
+Correcto: False
+
+======================================================================
+ID: 87
+Pregunta: How do I enchant a sword with Mending while simultaneously smelting Obsidian blocks using an explosion to break them, all while avoiding the risk of attracting mobs that would interfere with the process?
+Humano: gameplay
+Zero-Shot: items
+Confianza: 42.68%
+Correcto: False
+
+======================================================================
+ID: 88
+Pregunta: What happens to a mob when it is attacked by a player while the player is standing on a block that is being broken?
+Humano: mobs
+Zero-Shot: mobs
+Confianza: 41.45%
+Correcto: True
+
+======================================================================
+ID: 89
+Pregunta: How do I set up a Minecraft server?
+Humano: misc
+Zero-Shot: commands
+Confianza: 22.73%
+Correcto: False
+
+======================================================================
+ID: 90
+Pregunta: How to build a simple calculator in Minecraft?
+Humano: misc
+Zero-Shot: commands
+Confianza: 32.65%
+Correcto: False
+
+======================================================================
+ID: 91
+Pregunta: What new feature was added in the latest version of Minecraft that allows players to build more complex structures?
+Humano: misc
+Zero-Shot: blocks
+Confianza: 26.56%
+Correcto: False
+
+======================================================================
+ID: 93
+Pregunta: What information does the heads-up display (HUD) show about your character when you are underwater in Minecraft?
+Humano: misc
+Zero-Shot: tutorials
+Confianza: 33.30%
+Correcto: False
+
+======================================================================
+ID: 94
+Pregunta: When does my hunger level gradually replenish in Minecraft?
+Humano: gameplay
+Zero-Shot: items
+Confianza: 25.84%
+Correcto: False
+
+======================================================================
+ID: 97
+Pregunta: How can Minecraft students use the Chemistry Equipment blocks to simulate real-world chemistry?
+Humano: misc
+Zero-Shot: blocks
+Confianza: 41.21%
+Correcto: False
+
+======================================================================
+ID: 98
+Pregunta: What can only world builders do with Non-Player Characters (NPCs) in Minecraft?
+Humano: gameplay
+Zero-Shot: misc
+Confianza: 16.38%
+Correcto: False
+
+======================================================================
+ID: 99
+Pregunta: How can you view the pictures you have taken in Minecraft?
+Humano: misc
+Zero-Shot: commands
+Confianza: 18.04%
+Correcto: False
+
+======================================================================
+ID: 100
+Pregunta: What is the main purpose of Classroom mode in Minecraft: Education Edition, and how can educators access it?
+Humano: misc
+Zero-Shot: tutorials
+Confianza: 20.95%
+Correcto: False
+
+======================================================================
+ID: 101
+Pregunta: What command do you need to use to launch the classroom mode app in Minecraft: Education Edition?
+Humano: misc
+Zero-Shot: commands
+Confianza: 56.21%
+Correcto: False
+
+======================================================================
+ID: 102
+Pregunta: What is a common type of material used to craft tools in Minecraft that can be mined faster than using one's fist?
+Humano: items
+Zero-Shot: blocks
+Confianza: 47.65%
+Correcto: False
+
+======================================================================
+ID: 103
+Pregunta: What is the main benefit of using the right tool for a specific job in Minecraft, aside from mining blocks faster?
+Humano: items
+Zero-Shot: items
+Confianza: 36.86%
+Correcto: True
+
+======================================================================
+ID: 106
+Pregunta: What is the primary difference between a crafting table and a furnace in terms of the items they can process, and how do these differences affect the output of the crafting process?
+Humano: world
+Zero-Shot: items
+Confianza: 38.45%
+Correcto: False
+
+======================================================================
+ID: 107
+Pregunta: What item do I need to put in the top of the furnace to start the smelting process?
+Humano: blocks
+Zero-Shot: items
+Confianza: 33.20%
+Correcto: False
+
+======================================================================
+ID: 108
+Pregunta: Can I combine items on the anvil without using any raw materials?
+Humano: items
+Zero-Shot: items
+Confianza: 34.68%
+Correcto: True
+
+======================================================================
+ID: 109
+Pregunta: What is the mechanism behind the random selection of enchantments when an item is placed in the enchantment table, and how can you influence this selection?
+Humano: items
+Zero-Shot: commands
+Confianza: 29.58%
+Correcto: False
+
+======================================================================
+ID: 111
+Pregunta: Can you wash off a pattern from a banner in a cauldron?
+Humano: items
+Zero-Shot: commands
+Confianza: 15.25%
+Correcto: False
+
+======================================================================
+ID: 112
+Pregunta: What is the purpose of a cauldron in Minecraft?
+Humano: blocks
+Zero-Shot: blocks
+Confianza: 31.72%
+Correcto: True
+
+======================================================================
+ID: 113
+Pregunta: How do I use the loom to create a pattern on a banner with multiple dyes?
+Humano: items
+Zero-Shot: commands
+Confianza: 15.88%
+Correcto: False
+
+======================================================================
+ID: 114
+Pregunta: Can you use a loom to craft a banner with a creeper face pattern?
+Humano: items
+Zero-Shot: items
+Confianza: 19.22%
+Correcto: True
+
+======================================================================
+ID: 115
+Pregunta: What happens to a shield's durability when it blocks an attack of strength 5 or more?
+Humano: items
+Zero-Shot: items
+Confianza: 36.23%
+Correcto: True
+
+======================================================================
+ID: 116
+Pregunta: Can I place a beacon on a block that's not a pyramid made of iron, gold, emerald, or diamond blocks, and still have it function properly?
+Humano: items
+Zero-Shot: blocks
+Confianza: 43.40%
+Correcto: False
+
+======================================================================
+ID: 117
+Pregunta: What is required to craft a conduit in Minecraft?
+Humano: items
+Zero-Shot: redstone
+Confianza: 43.65%
+Correcto: False
+
+======================================================================
+ID: 118
+Pregunta: What happens when you use a bed in the Nether?
+Humano: gameplay
+Zero-Shot: commands
+Confianza: 21.56%
+Correcto: False
+
+======================================================================
+ID: 119
+Pregunta: What is the function of a crafting table in Minecraft?
+Humano: blocks
+Zero-Shot: items
+Confianza: 56.48%
+Correcto: False
+
+======================================================================
+ID: 120
+Pregunta: your question here
+Humano: misc
+Zero-Shot: tutorials
+Confianza: 19.23%
+Correcto: False
+
+======================================================================
+ID: 121
+Pregunta: What is the primary difference between crafting red dye from poppies and obtaining other, harder-to-find dyes in Minecraft?
+Humano: items
+Zero-Shot: items
+Confianza: 58.09%
+Correcto: True
+
+
+======================================================================
+RESUMEN
+======================================================================
+Preguntas evaluadas: 100
+Aciertos: 34
+Errores: 66
+Precisión: 34.00%
