@@ -4,8 +4,9 @@ import tempfile
 import os
 from app.database import SessionLocal, engine
 from app.models import Base, Question
+from app.categories import CATEGORIES
 
-DATASET_URL = "https://huggingface.co/datasets/minhaozhang/minecraft-question-answer-500k/resolve/refs%2Fconvert%2Fparquet/default/train/0000.parquet"
+BASE_URL = "https://huggingface.co/datasets/rlyapin/OpenTriviaQA/resolve/main"
 
 
 def download_parquet(url: str) -> str:
@@ -18,16 +19,25 @@ def download_parquet(url: str) -> str:
     return tmp.name
 
 
+def load_category(categoria: dict[str, str]) -> pd.DataFrame:
+    config = categoria["dataset_config"]
+    url = f"{BASE_URL}/{config}/data.parquet"
+    parquet_path = download_parquet(url)
+    df = pd.read_parquet(parquet_path)
+    os.unlink(parquet_path)
+    df["categoria_local"] = categoria["name"]
+    return df
+
+
 def load_questions():
     Base.metadata.create_all(bind=engine)
 
-    parquet_path = download_parquet(DATASET_URL)
-    df = pd.read_parquet(parquet_path).head(1000)
-    os.unlink(parquet_path)
+    dataframes = [load_category(categoria) for categoria in CATEGORIES]
+    df = pd.concat(dataframes, ignore_index=True)
 
     print(f"Columnas disponibles: {list(df.columns)}")
-    print(f"Filas: {len(df)}")
-    print(df.head(3))
+    print(f"Filas totales: {len(df)}")
+    print(df["categoria_local"].value_counts())
 
     session = SessionLocal()
     try:
@@ -35,8 +45,8 @@ def load_questions():
             question = Question(
                 question=row.get("question", ""),
                 answer=row.get("answer", ""),
-                category=row.get("source", None),
-                source=None,
+                category=row.get("categoria_local", None),
+                source=f"rlyapin/OpenTriviaQA/{row.get('categoria_local', '')}",
             )
             session.add(question)
 

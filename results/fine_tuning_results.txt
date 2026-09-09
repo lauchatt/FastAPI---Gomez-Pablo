@@ -1,0 +1,179 @@
+RESULTADOS - FINE-TUNING
+======================================================================
+
+Modelo base: all-MiniLM-L6-v2
+Modelo fine-tuneado: models\questions-embedding
+Epochs: 3
+Batch size: 8
+Seed: 42
+
+DATOS DEL ENTRENAMIENTO
+----------------------------------------------------------------------
+Preguntas utilizadas para entrenamiento: 78
+Preguntas utilizadas para evaluación: 22
+
+RESULTADO
+----------------------------------------------------------------------
+Preguntas evaluadas: 22
+Aciertos: 15
+Errores: 7
+Precisión: 68.18%
+
+======================================================================
+DETALLE DE LAS PREGUNTAS EVALUADAS
+======================================================================
+
+Pregunta 1
+Texto: You can buy paintball land mines that are reusable.
+Categoría humana: geografia
+Categoría predicha: geografia
+Correcto: True
+----------------------------------------------------------------------
+
+Pregunta 2
+Texto: In the 1982 film Airplane 2: The Sequel the space shuttle was called the Mayflower 1.
+Categoría humana: entretenimiento
+Categoría predicha: historia
+Correcto: False
+----------------------------------------------------------------------
+
+Pregunta 3
+Texto: This twenty-year-old was the only civilian killed during the Battle of Gettysburg.
+Categoría humana: historia
+Categoría predicha: historia
+Correcto: True
+----------------------------------------------------------------------
+
+Pregunta 4
+Texto: In 1643, a Native American uprising killed this unauthorized Puritan preacher of a dissident church discussion group, and pioneer in Rhode Island and the Bronx.
+Categoría humana: historia
+Categoría predicha: historia
+Correcto: True
+----------------------------------------------------------------------
+
+Pregunta 5
+Texto: What is the name of Shawn Michaels second wife whom he married in 1999?
+Categoría humana: entretenimiento
+Categoría predicha: deporte
+Correcto: False
+----------------------------------------------------------------------
+
+Pregunta 6
+Texto: In this month, Julius Caesar was killed, and International Womens Day and Saint Patricks Day are celebrated.
+Categoría humana: historia
+Categoría predicha: historia
+Correcto: True
+----------------------------------------------------------------------
+
+Pregunta 7
+Texto: Which of these pearls are the most valuable in the world?
+Categoría humana: ciencia
+Categoría predicha: ciencia
+Correcto: True
+----------------------------------------------------------------------
+
+Pregunta 8
+Texto: Which of these activities can cause permanent damage to the eyes?
+Categoría humana: ciencia
+Categoría predicha: ciencia
+Correcto: True
+----------------------------------------------------------------------
+
+Pregunta 9
+Texto: Which of these Cowboys won the Super Bowl XII MVP trophy?
+Categoría humana: deporte
+Categoría predicha: deporte
+Correcto: True
+----------------------------------------------------------------------
+
+Pregunta 10
+Texto: Which volcano, located on Ross Island, Antarctica, is the southernmost active volcano on Earth?
+Categoría humana: geografia
+Categoría predicha: geografia
+Correcto: True
+----------------------------------------------------------------------
+
+Pregunta 11
+Texto: Which of these words is a synonym of research?
+Categoría humana: ciencia
+Categoría predicha: ciencia
+Correcto: True
+----------------------------------------------------------------------
+
+Pregunta 12
+Texto: Who was the first Major Leaguer to win the All-Star Game MVP Award?
+Categoría humana: deporte
+Categoría predicha: deporte
+Correcto: True
+----------------------------------------------------------------------
+
+Pregunta 13
+Texto: What was the nickname of San Diego State University during 2006?
+Categoría humana: deporte
+Categoría predicha: deporte
+Correcto: True
+----------------------------------------------------------------------
+
+Pregunta 14
+Texto: In the group of whole numbers under addition, what is the additive identity of 7?
+Categoría humana: ciencia
+Categoría predicha: historia
+Correcto: False
+----------------------------------------------------------------------
+
+Pregunta 15
+Texto: In 1912, a jawbone and fragments of a skull were discovered and originally named âdawn-manâ.  It wasnât until 41 years later that it was exposed as a hoax. This darling of creationist skepticism is known as what?
+Categoría humana: ciencia
+Categoría predicha: historia
+Correcto: False
+----------------------------------------------------------------------
+
+Pregunta 16
+Texto: Georgi Asparuhov, Magdalena Maleeva, Dan Kolov and Tanya Bogomilova are all great athletes from this nation.
+Categoría humana: deporte
+Categoría predicha: historia
+Correcto: False
+----------------------------------------------------------------------
+
+Pregunta 17
+Texto: What uniform number did Walter Payton wear when he played for the Bears?
+Categoría humana: deporte
+Categoría predicha: deporte
+Correcto: True
+----------------------------------------------------------------------
+
+Pregunta 18
+Texto: What language is spoken by the most people in the European Union as their native language?
+Categoría humana: geografia
+Categoría predicha: geografia
+Correcto: True
+----------------------------------------------------------------------
+
+Pregunta 19
+Texto: What Soviet General and Hero of the Soviet Union led the Red Army during the Battle of Stalingrad and the Battle of Kursk?
+Categoría humana: historia
+Categoría predicha: historia
+Correcto: True
+----------------------------------------------------------------------
+
+Pregunta 20
+Texto: Merengue was born in Portugal in the 16th century as part of an important ritual.
+Categoría humana: arte
+Categoría predicha: historia
+Correcto: False
+----------------------------------------------------------------------
+
+Pregunta 21
+Texto: Which of these Bat-villains was introduced first?
+Categoría humana: entretenimiento
+Categoría predicha: historia
+Correcto: False
+----------------------------------------------------------------------
+
+Pregunta 22
+Texto: The US gained some legality for their blockade of Cuba during the Cuban Missile Crisis, when they received strong approval and support from this organization.
+Categoría humana: historia
+Categoría predicha: historia
+Correcto: True
+----------------------------------------------------------------------
+
