@@ -26,48 +26,13 @@ class AIClassifier:
     """
 
     CATEGORY_LABELS = {
-    "blocks": "Minecraft blocks, building materials, and block properties",
-
-    "items": (
-        "Minecraft items, tools, weapons, armor, food, ingredients, "
-        "potions, and usable resources"
-    ),
-
-    "mobs": (
-        "Minecraft mobs, creatures, their behavior, spawning, combat, "
-        "and drops"
-    ),
-
-    "world": (
-        "Minecraft biomes, dimensions, structures, terrain, "
-        "world generation, caves, oceans, and exploration"
-    ),
-
-    "redstone": (
-        "Minecraft redstone, mechanisms, circuits, components, "
-        "and redstone contraptions"
-    ),
-
-    "commands": (
-        "Minecraft commands, command syntax, command blocks, "
-        "and command-related mechanics"
-    ),
-
-    "tutorials": (
-        "Minecraft tutorials, tutorial hints, controls, HUD, "
-        "interface, and instructions for learning how to play"
-    ),
-
-    "gameplay": (
-        "Minecraft gameplay mechanics, inventory, trading, progression, "
-        "achievements, statistics, and general game rules"
-    ),
-
-    "misc": (
-        "Minecraft topics that do not fit into the other categories, "
-        "including versions, history, development, and other miscellaneous topics"
-    ),
-}
+        "ciencia": "science and technology questions",
+        "geografia": "geography questions about countries and places",
+        "historia": "history questions about past historical events",
+        "deporte": "sports questions about athletes and competitions",
+        "arte": "art questions about painting, sculpture and literature",
+        "entretenimiento": "entertainment questions about movies, music and pop culture",
+    }
 
     def __init__(self, model_name: str = "facebook/bart-large-mnli"):
         print(f"\nCargando modelo de IA: {model_name}...")

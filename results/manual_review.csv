@@ -1,101 +1,103 @@
 question_id,question,ai_category,ai_confidence,human_category
-710,"What happens to the mobs in a 5x5x5 cave system when you break a block that is being occupied by a spider while there is a villager nearby, but the villager is not directly adjacent to the spider?",mobs,0.47423771023750305,mobs
-298,"What are some common issues that might arise when building shelters in Minecraft, especially in servers that may consider using bugs in the game as a punishable offense?",commands,0.19645480811595917,misc
-338,What can I do to change the color of the beam emitted by a beacon?,commands,0.21589213609695435,blocks
-607,"How can I create a small, simple farm in a challenge map to provide resources for an early-game player?",items,0.2826823592185974,gameplay
-506,What visual indicator appears below the crosshair when a fully cooled weapon is in range to land a full-damage blow in Crosshair mode?,items,0.31634923815727234,misc
-647,How many pieces of material do you need to craft a full set of armor in Minecraft?,items,0.5742990970611572,items
-37,What is the average amount of diamonds that a player can find in a single diamond ore block?,blocks,0.46079570055007935,blocks
-772,How can I optimize my farming strategy in challenge maps to ensure a steady supply of resources while minimizing the complexity of my farm design?,items,0.17811594903469086,gameplay
-675,What is the default multiplayer setting for a new Minecraft world?,misc,0.17044271528720856,misc
-92,What is the primary benefit of sneaking in Minecraft?,commands,0.16366463899612427,commands
-62,How do I access the Legacy Console Edition tutorial?,tutorials,0.4241328835487366,tutorials
-901,"Can you recommend a Minecraft server that supports a wide range of user-generated content from the Minecraft Marketplace, and also has a strong focus on community engagement?",tutorials,0.18763421475887299,misc
-656,What is the best way to speed up the growth of a foal into an adult horse in Minecraft?,commands,0.2581860423088074,gameplay
-1005,How can students use Minecraft's Chemistry Equipment blocks to create a real-world simulation of chemical reactions and compounds?,blocks,0.5395228266716003,misc
-321,What is the primary use of the Classroom mode in Minecraft: Education Edition?,tutorials,0.23314405977725983,misc
-483,"What is the primary purpose of the HUD in Minecraft, and what information does it display?",tutorials,0.521785318851471,gameplay
-1087,How can I craft a tool in Minecraft to increase my block mining speed?,items,0.584473192691803,gameplay
-775,What happens to the experience points earned by breaking a block while fighting a mob in a Minecraft world?,gameplay,0.31666821241378784,gameplay
-951,How can you use redstone and mechanisms to protect your base from a mob that can spawn in the middle of the night?,redstone,0.3022737503051758,redstone
-110,What potion effect can be created by using netherwart in the top position of a brewing stand?,items,0.5449627637863159,items
-185,What potion can be created by placing Netherwart in the top position of a brewing stand?,items,0.5689177513122559,items
-1001,What happens to your health if you lose some but have at least 9?,gameplay,0.3187807500362396,gameplay
-44,What is the most efficient way to create a large-scale redstone clock system that can be used to synchronize multiple devices on a dedicated Minecraft server?,redstone,0.4867078959941864,redstone
-930,What are some of the key things I should focus on when first starting out in Minecraft and trying to improve my survival skills?,items,0.21366161108016968,misc
-129,"What happens if a villager is used too frequently for trading, and how can you encourage them to offer better trades?",gameplay,0.4254741668701172,mobs
-352,How can I travel across water in Minecraft?,world,0.20209793746471405,gameplay
-575,How can you prevent your crops from dying when they are still growing?,commands,0.16382382810115814,items
-983,"What are some effective ways to improve your overall gaming experience in Minecraft, especially when you're already comfortable with the basics and want to take your gameplay to the next level?",gameplay,0.3776334822177887,gameplay
-1024,"What types of blocks can be crafted in Minecraft, and how are they created?",blocks,0.922369658946991,blocks
-657,What item should I feed a mob to make it sit and stay in the Nether portal?,mobs,0.29160648584365845,mobs
-723,What is the most efficient way to automate the collection of crops in a challenge map with limited resources?,commands,0.18139709532260895,gameplay
-1034,What happens when you try to place too many scaffolding blocks without proper support?,blocks,0.28001707792282104,blocks
-580,What is the minimum time gap required for adult animals to re-enter love mode after having a baby?,tutorials,0.13921496272087097,mobs
-630,"How can I view the pictures I've taken in Minecraft, and what are the possible uses of these pictures?",commands,0.2060214728116989,misc
-773,How do I maximize my chances of finding a specific type of ore in a challenge map while farming in a furnace?,items,0.3279499113559723,world
-534,How can you use redstone and mechanisms to keep mobs from spawning in a specific area of your Minecraft world?,redstone,0.36774131655693054,redstone
-34,How can I adjust the size of the HUD and GUI in Minecraft when riding mobs in Java Edition?,mobs,0.21455222368240356,gameplay
-974,How can I optimize my furnace usage in challenge maps to get the most out of my farming setup?,commands,0.19259396195411682,gameplay
-590,What is the primary purpose of a power source in a redstone circuit?,redstone,0.1873079538345337,redstone
-181,What is the main difference between a crafting table and a furnace in Minecraft?,items,0.6132453083992004,blocks
-366,How do I manage permissions for friends in a Minecraft realm?,commands,0.2363951951265335,commands
-1043,What is the default color of a Command Block that is set to execute a command on failure?,commands,0.4291420876979828,blocks
-690,What is the primary purpose of a shelter in Minecraft?,blocks,0.31929323077201843,gameplay
-537,What is the best way to create a working,items,0.188963383436203,gameplay
-721,How do you make a shelter in Minecraft?,blocks,0.35206368565559387,gameplay
-629,Question Text,tutorials,0.1706204116344452,misc
-96,"What type of block prevents players from building in the space between two other blocks, while still allowing building above it?",blocks,0.622901976108551,blocks
-368,What resource pack modification can be used to change the Marketplace's default icons and visual effects?,items,0.1752055287361145,misc
-589,What happens to the Redstone signal emitted by a command block when it has either executed or failed to execute its stored command?,commands,0.49966737627983093,commands
-934,How can I enchant a sword to deal damage to mobs while smelting them in a furnace?,items,0.5199171304702759,items
-869,How many patterns can you apply to a banner before it is no longer possible to add more?,gameplay,0.18426555395126343,items
-335,"How can you apply a complex pattern to a banner in Minecraft without using a loom, but still use only one type of dye?",blocks,0.18826048076152802,items
-405,What is the minimum material required to craft a tool in Minecraft?,items,0.599738597869873,items
-662,How can I travel across water in Minecraft?,world,0.20209793746471405,world
-216,How to join a multiplayer game in Minecraft?,tutorials,0.4304749667644501,tutorials
-230,"What are some key strategies for efficiently mining coal in Minecraft's Nether, taking into account the unique challenges of navigating lava and magma blocks?",blocks,0.3014170527458191,gameplay
-124,What happens when you put a saddle on a horse in Minecraft?,commands,0.3499613404273987,mobs
-941,What visual indicator is used to show when a weapon is fully cooled when the crosshair attack indicator is enabled?,items,0.4355311989784241,gameplay
-3,What file contains the tutorial hints in Minecraft?,tutorials,0.5564630627632141,misc
-197,How can you accelerate the growth of a foal into an adult horse in Minecraft?,commands,0.27758559584617615,mobs
-808,What type of blocks can be created by combining other blocks on a crafting table in Minecraft?,blocks,0.8199988603591919,blocks
-643,What is the best way to remove a pattern from a banner?,commands,0.16830895841121674,items
-303,What is the difference between a state machine and a finite state machine?,tutorials,0.15652813017368317,misc
-886,What is the minimum setting to use cheats in Minecraft?,commands,0.22355709969997406,gameplay
-914,Can I use a small farm design to achieve a high yield in challenge maps where resources are scarce?,gameplay,0.2481655776500702,gameplay
-585,What are the specific tools that players must use in Adventure mode to place or break blocks?,commands,0.2783333957195282,gameplay
-1095,What is the probability of getting a specific enchantment when placing an item in the enchantment table?,items,0.1912558376789093,items
-219,What is the main purpose of the Marketplace in Minecraft?,items,0.4660484492778778,misc
-285,"What type of structures are considered shelters in Minecraft, and how do they affect the gameplay experience?",blocks,0.47138985991477966,world
-175,How can I connect the Classroom Mode app to Minecraft: Education Edition when I am hosting a world?,tutorials,0.22670312225818634,misc
-388,"What mob is most likely to drop a diamond when killed and enchanted with a blast protection IV enchantment, and how can you smelt the diamond into a diamond block?",mobs,0.4372757077217102,mobs
-544,"What is the primary purpose of the ""Observer"" block in Redstone contraptions, and how does it differ from other blocks in terms of its functionality?",redstone,0.4132120609283447,redstone
-376,"What is the trade-off between a large, complex farm and a smaller, simpler one in a challenge map?",commands,0.15604011714458466,misc
-701,What visual indicator do you see when your weapon is fully cooled in Crosshair mode?,items,0.4676283299922943,items
-989,"What happens to the state of redstone contraptions when a mob is nearby, and how can I prevent the contraption from malfunctioning due to mob interactions?",redstone,0.3629058599472046,redstone
-787,Can you use the camera to take pictures of objects in the portfolio in Minecraft?,items,0.28010571002960205,gameplay
-64,What is the significance of the TU numbers in the gallery of Minecraft Xbox 360 Demo?,tutorials,0.1533532440662384,misc
-105,How can I use the environment to navigate through a Minecraft world on my first day?,world,0.2271082103252411,world
-38,"What is a common issue with using bugs in Minecraft shelter building, and how can I mitigate this problem?",commands,0.19221383333206177,gameplay
-556,What is the command to launch the classroom mode app in Minecraft: Education Edition?,commands,0.5341696739196777,misc
-970,What is the name of the console that the Xbox 360 Demo Screenshots were displayed on?,misc,0.1423562467098236,misc
-40,What is the most efficient way to manage resources in a farming challenge map?,items,0.18003182113170624,misc
-502,What are some of the screenshots that appeared at the end of the Xbox 360 Demo?,commands,0.12918072938919067,misc
-996,What is the best enchantment for killing mobs in Minecraft?,mobs,0.5294084548950195,mobs
-433,"What is the primary difference between Adventure mode and other game modes in Minecraft, considering the difficulty of building and resource gathering?",gameplay,0.1852787882089615,gameplay
-891,"Can I use command blocks to automatically set the game difficulty to hard for all players in a multiplayer game, and if so, how would I achieve this?",commands,0.5769044160842896,commands
-104,What is the best underwater weapon in Minecraft and how does it work?,items,0.7332457900047302,items
-646,What can you add to the second slot of a loom to add patterns to a banner?,commands,0.1528114676475525,items
-436,How can I change the weather in a Minecraft world with cheats enabled?,commands,0.31650882959365845,commands
-551,What is the effect of placing an Allow block with a Deny block somewhere below it in a Minecraft world?,commands,0.5648324489593506,gameplay
-4,What are the common issues that can occur when the options.txt file is corrupted in Minecraft and how can you fix them?,commands,0.29674094915390015,misc
-834,What is the default setting for multiplayer in a Minecraft world and how do I change it if I want to make the world private?,commands,0.18599115312099457,misc
-535,What is the most efficient way to create a delay in a redstone contraption when using repeaters?,commands,0.18712292611598969,redstone
-415,Can you use a cauldron to create different colored leather armor?,items,0.7001181840896606,items
-1089,What is the best underwater weapon in Minecraft?,items,0.7809533476829529,items
-555,What is the primary use of the Classroom mode in Minecraft: Education Edition?,tutorials,0.23314405977725983,misc
-156,"How can I effectively utilize my existing resources to build a self-sustaining base in Minecraft, considering the limitations of my current tools and materials?",items,0.3292008340358734,gameplay
-832,How can you create a container that keeps its items when broken in Minecraft's End Cities?,items,0.2932429611682892,blocks
-1023,What happens to players in a multiplayer Minecraft world if they fail to use a bed at the same time?,commands,0.21860136091709137,gameplay
-667,How do I teleport myself or friends when playing Minecraft with cheats enabled?,commands,0.30698204040527344,commands
+4158,What Soviet General and Hero of the Soviet Union led the Red Army during the Battle of Stalingrad and the Battle of Kursk?,historia,0.3432254195213318,historia
+8476,Who wrote the screenplay for the 1960 Hollywood film Inherit the Wind?,entretenimiento,0.28559666872024536,entretenimiento
+4159,"One of historys most daring and able naval commanders, this admiral signaled his fleet at the Battle of Trafalgar by a flag that read England expects that every man will do his duty . What naval commander gave the supreme sacrifice at the Battle of Trafalgar while defeating the navies of the French and Spanish?",historia,0.3351293206214905,historia
+985,"There are twelve cranial nerves, two of which do not join the brainstem. Which are these two nerves?",ciencia,0.15345533192157745,ciencia
+6976,The International Olympic committee was founded in 1894.,deporte,0.4990014433860779,deporte
+8405,"The modern sandwich is possibly named after the 4th Earl of Sandwich, who allegedly ordered his servant to bring him meat tucked between two pieces of bread, as he was unwilling to leave this activity.",historia,0.15855422616004944,historia
+9054,What year did Andy Capp make his comic strip debut?,entretenimiento,0.1944669485092163,entretenimiento
+8159,Merengue was born in Portugal in the 16th century as part of an important ritual.,arte,0.19769161939620972,arte
+2635,"In 1643, a Native American uprising killed this unauthorized Puritan preacher of a dissident church discussion group, and pioneer in Rhode Island and the Bronx.",arte,0.1255107820034027,historia
+7993,"What movie features an actor speaking one of the Khoisan languages of southwestern Africa, which have a range of click sounds (sounds which are not found outside this region)?",entretenimiento,0.37275567650794983,entretenimiento
+5033,Which of these Cowboys won the Super Bowl XII MVP trophy?,deporte,0.3095465302467346,deporte
+4630,"During this century, the condom, the land mine and the sandpaper were invented.",ciencia,0.32591718435287476,ciencia
+505,"When Dr. Craig Venters private company, Celera, declared that they would beat the Human Genome Project in sequencing all human DNA, what did Venter tell Dr. Francis Collins, director of the HGP?",ciencia,0.20866622030735016,ciencia
+8025,The word henotheism means denial of the existence of gods other than ones own.,historia,0.21291980147361755,historia
+1066,On which of these factors does the total amount of water on Earth at a certain moment depend?,geografia,0.3204735517501831,geografia
+7425,What was the nickname of San Diego State University during 2006?,deporte,0.22146880626678467,deporte
+2682,The head of John the Baptist can be seen in the Amiens Cathedral.,historia,0.19479075074195862,historia
+5806,"Baseball commissioners have been lawyers, governors, lieutenants and successful businessmen. Which one of these received a doctorate?",deporte,0.3256393074989319,deporte
+7053,The NCAA started seeding mens basketball teams in 1979 and 2008 marked the first time when all #1 seeds made it to the Final Four. Name the teams that made it.,deporte,0.30752328038215637,deporte
+6907,"The 1980 Summer Olympics, officially known as the Games of the XXII Olympiad, were held in this country.",deporte,0.6012471914291382,deporte
+6180,Who was the first Major Leaguer to win the All-Star Game MVP Award?,deporte,0.26600927114486694,deporte
+3868,In the 1982 film Airplane 2: The Sequel the space shuttle was called the Mayflower 1.,entretenimiento,0.253185510635376,entretenimiento
+461,Which of the following medications treats depression?,arte,0.11840511858463287,ciencia
+1283,Which of these activities can cause permanent damage to the eyes?,ciencia,0.19354447722434998,ciencia
+3406,"What statesman became the first President, under the Fifth Republic of France, in 1959?",historia,0.226464182138443,historia
+3499,This twenty-year-old was the only civilian killed during the Battle of Gettysburg.,historia,0.21593856811523438,historia
+4399,"The US gained some legality for their blockade of Cuba during the Cuban Missile Crisis, when they received strong approval and support from this organization.",ciencia,0.11460922658443451,historia
+3746,"What product was registered with the United States Patent and Trademark Office on October 27 in 1970, by the Van Brode Milling Company?",ciencia,0.31743812561035156,ciencia
+7957,Violin virtuoso Itzach Perlman is a cousin of this entertainer.,entretenimiento,0.34558647871017456,entretenimiento
+4075,The French Revolution began in 1789 with the storming of this building and ended in 1799 after succeeding to overthrow the absolute monarchy in France.,historia,0.14021112024784088,historia
+8724,One is to the Tagalog word isa as two is to this Tagalog word.,geografia,0.2113111913204193,geografia
+1762,Which of these pearls are the most valuable in the world?,historia,0.2249787449836731,ciencia
+6398,You can buy paintball land mines that are reusable.,geografia,0.18728841841220856,geografia
+4070,"On December 7, 1942 the Japanese attacked Pearl Harbor.",historia,0.2904161810874939,historia
+2060,In which part of the digestive system are the so-called Brunners glands located?,geografia,0.10814035683870316,ciencia
+1067,Ice caps and glaciers are the second largest water reservoirs on Earth after oceans. What percent of the planetâs water do they hold?,geografia,0.33092063665390015,geografia
+7635,Who purchased the Dallas Cowboys in 1989?,deporte,0.29307615756988525,deporte
+6798,Yogi Berra is famous for his Yogisms. Which of the following is NOT a Yogi quote?,historia,0.3209499716758728,historia
+7458,Which team wins the English Premiership in the 1994-95 season?,deporte,0.2687836289405823,deporte
+8797,Grammatically correct gender terminology  includes which of the following?,entretenimiento,0.22783434391021729,entretenimiento
+8821,Which of these words is a synonym of research?,ciencia,0.3958320915699005,ciencia
+6347,Which of these is not a former Southern California Trojans football player?,deporte,0.3728914260864258,deporte
+4681,"On what album released in 1986 would I find the following lyrics:
+When I was 17 I did what people told me, 
+Did what my father said and let my mother mold me",entretenimiento,0.15613287687301636,entretenimiento
+4670,What did Benjamin Franklin do in 1752?,ciencia,0.273343950510025,ciencia
+3068,Which island is NOT a part of Greece?,geografia,0.3386288285255432,geografia
+993,"In 1912, a jawbone and fragments of a skull were discovered and originally named âdawn-manâ.  It wasnât until 41 years later that it was exposed as a hoax. This darling of creationist skepticism is known as what?",ciencia,0.34644171595573425,ciencia
+3797,The country of Russia was named for the Vikings.,geografia,0.23001053929328918,geografia
+4529,"In this year the Dow Jones Industrial Average reached its lowest level of the Great Depression, bottoming out at 41.22, Tarzan the Ape Man opened,and the Winter Olympics were held in Lake Placid, New York.",deporte,0.383344829082489,deporte
+8782,What language is spoken by the most people in the European Union as their native language?,geografia,0.2094438076019287,geografia
+9069,What is the name of Garfields veterinarian on the self-titled comic strip?,entretenimiento,0.2813153862953186,entretenimiento
+6582,Who won the Little League World Series in 1998?,deporte,0.3468002676963806,deporte
+9036,Which of these Bat-villains was introduced first?,historia,0.253074586391449,entretenimiento
+693,"The term âpetrodollarâ, a dollar earned by a country through the sale of oil, was invented in 1973 by this Egyptian-born American professor and economist.",ciencia,0.3083032965660095,ciencia
+7160,Who was the New York Mets player who hit 3 home runs in one game in the 1999 National League Division Series held at Shea Stadium?,deporte,0.3221503496170044,deporte
+7218,Which team was Shane Battier traded to in 2006?,deporte,0.2656170725822449,deporte
+6745,John Patrick McEnroe was born on February the 16th 1959 in which European country ?,entretenimiento,0.22450438141822815,entretenimiento
+2068,In which part of the human body are Sharpeys fibers found?,arte,0.19905564188957214,ciencia
+1674,"An important supplement for pregnant women, what is vitamin B9 more commonly known as?",ciencia,0.07765629142522812,ciencia
+5877,Babe Ruth led the American League in home runs in three different decades.,deporte,0.36330974102020264,deporte
+6172,Who was the second Major League Baseball switch-hitter to hit 500 home runs?,deporte,0.32600855827331543,deporte
+4968,"This animal, which lived during the early Cambrian period, is possibly one of the first fish to evolve.",historia,0.1499989628791809,historia
+396,"On January 19, 2006 NASA launched the unmanned mission New Horizons to explore Pluto, on a one-way trip of how many years?",ciencia,0.2405063509941101,ciencia
+3097,Will Rogers World Airport and the Wiley Post Airport were named after people who died in 1935. How did they meet their demise?,historia,0.21863697469234467,historia
+395,"In 2001, NASA sent this unmanned spacecraft to orbit Mars in search of signs of water and volcanic activity on the surface.",ciencia,0.3003908097743988,ciencia
+9062,When did the comic strip Garfield come out?,entretenimiento,0.2213331162929535,entretenimiento
+4294,The word Calendar comes form Latin kalendae. What does this word mean?,historia,0.23019249737262726,historia
+2576,"Which volcano, located on Ross Island, Antarctica, is the southernmost active volcano on Earth?",geografia,0.18791168928146362,geografia
+1959,By what name was the closest planet to the Sun called by the Greeks?,ciencia,0.30735084414482117,ciencia
+6451,What is the name of Shawn Michaels second wife whom he married in 1999?,entretenimiento,0.14410513639450073,entretenimiento
+2435,What is the approximate surface of the skin of an average adult human?,arte,0.17912296950817108,arte
+7668,Who was the NBA Finals MVP in 1976?,deporte,0.28897541761398315,deporte
+6429,Who was the first gymnast ever to score a perfect 10.0?,deporte,0.30150800943374634,deporte
+8827,The group S.H.E plays country music in China.,entretenimiento,0.3952110707759857,entretenimiento
+1588,"If one were to look at the sky from Plutos surface, every 17 hours they would observe exceptionally beautiful rises of Charon because of its closeness to Pluto.",ciencia,0.3710370659828186,ciencia
+3368,This island was Englands first overseas colony.,geografia,0.24713563919067383,geografia
+3637,One of these historically influential political books was first published in February 1848. Its authors are Friedrich Engels and Karl Marx.,historia,0.38999783992767334,historia
+6729,"Georgi Asparuhov, Magdalena Maleeva, Dan Kolov and Tanya Bogomilova are all great athletes from this nation.",deporte,0.40181219577789307,deporte
+6736,Who had the longest hitting streak until 1941?,deporte,0.3901435136795044,deporte
+1017,Which is the planet with the biggest number of natural satellites in the solar system?,ciencia,0.3194388151168823,ciencia
+775,The lightest baby weighed this much.,entretenimiento,0.12394925951957703,entretenimiento
+3216,Myanmar is a south-eastern Asian country. Under which name was it known before a military junta took over?,geografia,0.24956929683685303,geografia
+33,Which Solar System celestial bodys revolution around the Sun takes 248 years?,ciencia,0.4504873752593994,ciencia
+6832,"This Brazilian football player is one of the most famous Vasco da Gama players and one of the best goal scorers in the history of Brazilian football, with a total of 744 goals in his professional career.",deporte,0.2111073136329651,deporte
+8361,Why did Phaethon take Apollos chariot and ride off across the sky?,historia,0.28024357557296753,historia
+7850,"Peter Kurten was called a vampire, because he consumed the blood of some of his victims. He was accused of nine murders and seven attempted murders and was sentenced to death. He was guillotined on 2 June 1932. What was his nationality?",historia,0.21447958052158356,historia
+6349,What former football player from the University of Southern California was a first round draft choice of the New York Jets but caused so much turmoil that the Jets soon traded him?,deporte,0.2775304615497589,deporte
+7547,What uniform number did Walter Payton wear when he played for the Bears?,deporte,0.38664597272872925,deporte
+3765,General Stonewall Jackson was a graduate of the Virginia Military Institute.,historia,0.24251651763916016,historia
+6280,Which player scored the winning penalty to secure Italys 4th World Cup victory in 2006?,deporte,0.21560758352279663,deporte
+3022,Which of these statements is true about the division of Korea into two parts?,geografia,0.3152942359447479,geografia
+7073,He began his career before the merger of the NFL and AFL. He played for the Broncos and Raiders. He was an integral part of the Raider defense for many years. He played from 1963-1978. He was voted to the AFL All-Time Team.,deporte,0.2686099410057068,deporte
+674,The members of which profession used to be called leechersâ because of the methods they used in the past?,historia,0.2509385943412781,historia
+4540,"In this month, Julius Caesar was killed, and International Womens Day and Saint Patricks Day are celebrated.",historia,0.399944931268692,historia
+2416,"Which of these statements is true about the white blood cells, also called leukocytes?",ciencia,0.23535478115081787,ciencia
+3777,"In the early 1950s, which of the following became the third country to have an atomic bomb?",geografia,0.2997007369995117,geografia
+302,About 95% of the rocks which form the upper part of the Earths crust are Igneous Rocks.,ciencia,0.29396486282348633,ciencia
+6038,Which of the following sports is a fictional one and exists only in the imaginary world of a popular US science fiction movie?,deporte,0.5625804662704468,entretenimiento
+2336,"In the group of whole numbers under addition, what is the additive identity of 7?",deporte,0.14780321717262268,ciencia
+2845,All these entities are located around the Black Sea except for one. Name the exception.,geografia,0.41565603017807007,geografia
+3726,"The son of this famous singer was kidnapped on December 8, 1963 at Harrahs Lake Tahoe.",historia,0.11724784970283508,historia

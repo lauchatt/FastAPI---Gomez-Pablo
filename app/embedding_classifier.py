@@ -28,95 +28,50 @@ class EmbeddingClassifier:
     """
 
     CATEGORY_DESCRIPTIONS = {
-        "blocks": [
-            "Minecraft blocks",
-            "Minecraft building blocks",
-            "Minecraft building materials",
-            "Minecraft block properties",
-            "Minecraft stone, wood and decorative blocks",
+        "ciencia": [
+            "science questions",
+            "physics, chemistry and biology",
+            "scientific discoveries and inventions",
+            "technology and how things work",
+            "space and astronomy",
         ],
-
-        "items": [
-            "Minecraft items",
-            "Minecraft tools and weapons",
-            "Minecraft food and ingredients",
-            "Minecraft armor",
-            "Minecraft potions",
-            "Minecraft usable resources",
+        "geografia": [
+            "geography questions",
+            "countries and capitals",
+            "mountains, rivers and oceans",
+            "maps and continents",
+            "world geography",
         ],
-
-        "mobs": [
-            "Minecraft mobs",
-            "Minecraft creatures",
-            "Minecraft hostile and passive creatures",
-            "Minecraft mob behavior",
-            "Minecraft mob spawning",
-            "Minecraft mob combat",
-            "Minecraft mob drops",
+        "historia": [
+            "history questions",
+            "historical events and dates",
+            "wars and battles",
+            "historical figures and leaders",
+            "ancient civilizations",
         ],
-
-        "world": [
-            "Minecraft biomes",
-            "Minecraft dimensions",
-            "Minecraft structures",
-            "Minecraft world generation",
-            "Minecraft terrain",
-            "Minecraft caves and oceans",
-            "Minecraft vegetation",
-            "Minecraft exploration",
+        "deporte": [
+            "sports questions",
+            "athletes and teams",
+            "sporting events and competitions",
+            "sports rules and records",
+            "olympic games",
         ],
-
-        "redstone": [
-            "Minecraft redstone",
-            "Minecraft redstone components",
-            "Minecraft redstone mechanisms",
-            "Minecraft redstone circuits",
-            "Minecraft redstone contraptions",
-            "Minecraft redstone devices",
-            "Minecraft redstone automation",
+        "arte": [
+            "art questions",
+            "painters and paintings",
+            "sculpture and architecture",
+            "literature and philosophy",
+            "art movements and museums",
         ],
-
-        "commands": [
-            "Minecraft commands",
-            "Minecraft command syntax",
-            "Minecraft command blocks",
-            "Minecraft command usage",
-            "Minecraft teleport commands",
-            "Minecraft commands and command mechanics",
-        ],
-
-        "tutorials": [
-            "Minecraft tutorials",
-            "Minecraft tutorial hints",
-            "Minecraft controls",
-            "Minecraft HUD",
-            "Minecraft user interface",
-            "Minecraft instructions for learning how to play",
-            "Minecraft beginner instructions",
-        ],
-
-        "gameplay": [
-            "Minecraft gameplay mechanics",
-            "Minecraft inventory",
-            "Minecraft trading",
-            "Minecraft progression",
-            "Minecraft achievements",
-            "Minecraft statistics",
-            "Minecraft game rules",
-            "Minecraft general gameplay",
-        ],
-
-        "misc": [
-            "Minecraft game versions",
-            "Minecraft development history",
-            "Minecraft game development",
-            "Minecraft resource packs",
-            "Minecraft books",
-            "Minecraft official content",
-            "Minecraft miscellaneous topics",
-            "Minecraft topics that do not fit other categories",
+        "entretenimiento": [
+            "entertainment questions",
+            "movies and actors",
+            "music and musicians",
+            "television shows",
+            "celebrities and pop culture",
         ],
     }
+
     def __init__(
         self,
         model_name: str = "all-MiniLM-L6-v2",

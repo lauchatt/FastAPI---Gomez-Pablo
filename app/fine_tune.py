@@ -36,7 +36,7 @@ CSV_FILE = Path("results/manual_review.csv")
 
 MODEL_NAME = "all-MiniLM-L6-v2"
 
-OUTPUT_DIR = Path("models/minecraft-embedding")
+OUTPUT_DIR = Path("models/questions-embedding")
 
 RESULTS_DIR = Path("results")
 

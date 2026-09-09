@@ -73,10 +73,8 @@ def categorize_all() -> None:
         # 1. Cargar categorías
         category_names = get_category_names()
 
-        # 2. Crear clasificador Embeddings
-        classifier = EmbeddingClassifier(
-            model_name="models/minecraft-embedding"
-        )
+        # 2. Crear clasificador Embeddings (modelo base)
+        classifier = EmbeddingClassifier()
 
         # 3. Obtener preguntas pendientes
         questions = get_uncategorized_questions(db)
