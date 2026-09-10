@@ -1,3 +1,4 @@
+import os
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
 from app.database import get_db, engine
@@ -29,7 +30,8 @@ def create_question(data: QuestionCreate, db: Session = Depends(get_db)):
 
 @app.on_event("startup")
 def on_startup():
-    Base.metadata.create_all(bind=engine)
+    if os.getenv("TESTING") != "1":
+        Base.metadata.create_all(bind=engine)
 
 
 @app.get("/")
