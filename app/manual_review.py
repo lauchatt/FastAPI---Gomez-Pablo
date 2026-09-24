@@ -1,8 +1,9 @@
 """
-Revisión manual de una muestra de categorizaciones realizadas por IA.
+Revisión manual de una muestra de preguntas.
 
-Toma categorizaciones automáticas ya existentes en la BD,
-selecciona una muestra y permite revisarlas desde consola.
+Toma preguntas directamente desde la tabla questions,
+selecciona una muestra aleatoria y permite asignarles
+manualmente una categoría.
 
 El resultado se guarda en manual_review.csv.
 """
@@ -12,7 +13,7 @@ import os
 import random
 
 from app.database import SessionLocal
-from app.models import Question, Categorization
+from app.models import Question
 from app.categories import get_category_names
 
 
@@ -20,17 +21,11 @@ CSV_FILE = "results/manual_review.csv"
 SAMPLE_SIZE = 100
 
 
-def load_categorizations(db):
+def load_questions(db):
     """
-    Obtiene las categorizaciones automáticas existentes.
+    Obtiene todas las preguntas disponibles.
     """
-
-    return (
-        db.query(Categorization)
-        .join(Question)
-        .filter(Categorization.is_automatic == True)
-        .all()
-    )
+    return db.query(Question).all()
 
 
 def load_reviewed_ids():
@@ -69,6 +64,12 @@ def create_csv():
     if os.path.exists(CSV_FILE):
         return
 
+    # Crear la carpeta results si no existe
+    os.makedirs(
+        os.path.dirname(CSV_FILE),
+        exist_ok=True
+    )
+
     with open(
         CSV_FILE,
         "w",
@@ -81,8 +82,6 @@ def create_csv():
         writer.writerow([
             "question_id",
             "question",
-            "ai_category",
-            "ai_confidence",
             "human_category"
         ])
 
@@ -90,12 +89,10 @@ def create_csv():
 def save_review(
     question_id,
     question,
-    ai_category,
-    ai_confidence,
     human_category
 ):
     """
-    Guarda una revisión en el CSV.
+    Guarda una revisión manual en el CSV.
     """
 
     with open(
@@ -110,8 +107,6 @@ def save_review(
         writer.writerow([
             question_id,
             question,
-            ai_category,
-            ai_confidence,
             human_category
         ])
 
@@ -123,14 +118,20 @@ def choose_category(category_names):
 
     print("\nCategorías disponibles:")
 
-    for i, category in enumerate(category_names, start=1):
+    for i, category in enumerate(
+        category_names,
+        start=1
+    ):
         print(f"{i}. {category}")
 
     while True:
 
-        choice = input("\nElegí la categoría correcta: ").strip()
+        choice = input(
+            "\nElegí la categoría correcta: "
+        ).strip()
 
         try:
+
             number = int(choice)
 
             if 1 <= number <= len(category_names):
@@ -139,15 +140,22 @@ def choose_category(category_names):
         except ValueError:
             pass
 
-        print("Opción inválida. Elegí un número de la lista.")
+        print(
+            "Opción inválida. "
+            "Elegí un número de la lista."
+        )
 
 
-def review_question(categorization, category_names, current, total):
+def review_question(
+    question,
+    category_names,
+    current,
+    total
+):
     """
-    Muestra una pregunta y permite revisarla.
+    Muestra una pregunta y permite asignarle
+    manualmente una categoría.
     """
-
-    question = categorization.question
 
     print("\n" + "=" * 70)
     print(f"PREGUNTA {current}/{total}")
@@ -156,33 +164,16 @@ def review_question(categorization, category_names, current, total):
     print("\nPregunta:")
     print(question.question)
 
-    print("\nPredicción de IA:")
-    print(f"Categoría: {categorization.category_name}")
-    print(f"Confianza: {categorization.confidence_score:.4f}")
+    print("\nRespuesta:")
+    print(question.answer)
 
-    while True:
-
-        answer = input("\n¿La IA acertó? [s/n]: ").strip().lower()
-
-        if answer == "s":
-
-            human_category = categorization.category_name
-            break
-
-        elif answer == "n":
-
-            human_category = choose_category(category_names)
-            break
-
-        else:
-
-            print("Escribí 's' para sí o 'n' para no.")
+    human_category = choose_category(
+        category_names
+    )
 
     save_review(
         question_id=question.id,
         question=question.question,
-        ai_category=categorization.category_name,
-        ai_confidence=categorization.confidence_score,
         human_category=human_category
     )
 
@@ -199,16 +190,16 @@ def main():
 
         create_csv()
 
-        # Cargar todas las categorizaciones automáticas
-        categorizations = load_categorizations(db)
+        # Cargar preguntas directamente
+        questions = load_questions(db)
 
         print("\n" + "=" * 70)
-        print("REVISIÓN MANUAL DE CATEGORIZACIONES")
+        print("REVISIÓN MANUAL DE PREGUNTAS")
         print("=" * 70)
 
         print(
-            f"\nCategorizaciones automáticas encontradas: "
-            f"{len(categorizations)}"
+            f"\nPreguntas encontradas: "
+            f"{len(questions)}"
         )
 
         # IDs que ya fueron revisados
@@ -216,44 +207,76 @@ def main():
 
         # Sacar las que ya revisamos
         pending = [
-            c
-            for c in categorizations
-            if c.question_id not in reviewed_ids
+            question
+            for question in questions
+            if question.id not in reviewed_ids
         ]
 
-        print(f"Preguntas ya revisadas: {len(reviewed_ids)}")
-        print(f"Preguntas pendientes: {len(pending)}")
+        print(
+            f"Preguntas ya revisadas: "
+            f"{len(reviewed_ids)}"
+        )
+
+        print(
+            f"Preguntas pendientes: "
+            f"{len(pending)}"
+        )
 
         if not pending:
 
-            print("\nNo hay preguntas pendientes.")
+            print(
+                "\nNo hay preguntas pendientes."
+            )
+
             return
 
         # Mezclar aleatoriamente
         random.shuffle(pending)
 
-        # Tomar como máximo las necesarias para llegar a 100
-        remaining = SAMPLE_SIZE - len(reviewed_ids)
+        # Cantidad restante hasta llegar a 100
+        remaining = (
+            SAMPLE_SIZE
+            - len(reviewed_ids)
+        )
 
         if remaining <= 0:
 
-            print("\nYa revisaste las 100 preguntas.")
+            print(
+                "\nYa revisaste las "
+                f"{SAMPLE_SIZE} preguntas."
+            )
+
             return
 
         sample = pending[:remaining]
 
-        print(f"\nSe revisarán {len(sample)} preguntas.")
-        print("El resultado se guardará en:", CSV_FILE)
+        print(
+            f"\nSe revisarán "
+            f"{len(sample)} preguntas."
+        )
 
-        input("\nPresioná ENTER para comenzar...")
+        print(
+            "El resultado se guardará en:",
+            CSV_FILE
+        )
 
-        # Revisar
-        for index, categorization in enumerate(sample, start=1):
+        input(
+            "\nPresioná ENTER para comenzar..."
+        )
 
-            current = len(reviewed_ids) + index
+        # Revisar preguntas
+        for index, question in enumerate(
+            sample,
+            start=1
+        ):
+
+            current = (
+                len(reviewed_ids)
+                + index
+            )
 
             review_question(
-                categorization=categorization,
+                question=question,
                 category_names=category_names,
                 current=current,
                 total=SAMPLE_SIZE
@@ -263,9 +286,19 @@ def main():
         print("REVISIÓN FINALIZADA")
         print("=" * 70)
 
-        print(f"\nRevisadas en esta sesión: {len(sample)}")
-        print(f"Total revisadas: {len(reviewed_ids) + len(sample)}")
-        print(f"Archivo: {CSV_FILE}")
+        print(
+            f"\nRevisadas en esta sesión: "
+            f"{len(sample)}"
+        )
+
+        print(
+            f"Total revisadas: "
+            f"{len(reviewed_ids) + len(sample)}"
+        )
+
+        print(
+            f"Archivo: {CSV_FILE}"
+        )
 
     finally:
 

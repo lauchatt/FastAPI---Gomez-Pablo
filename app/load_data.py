@@ -1,53 +1,66 @@
 import pandas as pd
-import requests
-import tempfile
-import os
+
 from app.database import SessionLocal, engine
-from app.models import Base, Question
-
-DATASET_URL = "https://huggingface.co/datasets/ddorin/minecraft-question-answer-1.1k/resolve/refs%2Fconvert%2Fparquet/default/train/0000.parquet"
+from app.models import Base, Question, Categorization
 
 
-def download_parquet(url: str) -> str:
-    print(f"Descargando {url}...")
-    r = requests.get(url, stream=True)
-    r.raise_for_status()
-    tmp = tempfile.NamedTemporaryFile(delete=False, suffix=".parquet")
-    tmp.write(r.content)
-    tmp.close()
-    return tmp.name
+DATASET_FILE = "opentrivia.parquet"
 
 
 def load_questions():
+
     Base.metadata.create_all(bind=engine)
 
-    parquet_path = download_parquet(DATASET_URL)
-    df = pd.read_parquet(parquet_path).head(1100)
-    os.unlink(parquet_path)
+    df = pd.read_parquet(DATASET_FILE)
 
-    print(f"Columnas disponibles: {list(df.columns)}")
-    print(f"Filas: {len(df)}")
-    print(df.head(3))
+    print(f"Columnas: {list(df.columns)}")
+    print(f"Preguntas: {len(df)}")
 
     session = SessionLocal()
+
     try:
+
+        # Eliminar categorizaciones anteriores
+        deleted_categories = session.query(Categorization).delete()
+
+        print(
+            f"Se eliminaron {deleted_categories} categorizaciones anteriores."
+        )
+
+        # Eliminar preguntas anteriores
+        deleted_questions = session.query(Question).delete()
+
+        print(
+            f"Se eliminaron {deleted_questions} preguntas anteriores."
+        )
+
+        # Insertar las nuevas preguntas
         for _, row in df.iterrows():
+
             question = Question(
-                question=row.get("question", ""),
-                answer=row.get("answer", ""),
-                category=row.get("source", None),
+                question=row["question"],
+                answer=row["answer"],
+                category=None,
                 source=None,
             )
+
             session.add(question)
 
         session.commit()
-        print(f"Se insertaron {len(df)} preguntas correctamente.")
+
+        print(
+            f"Se insertaron {len(df)} preguntas."
+        )
+
     except Exception as e:
+
         session.rollback()
         print(f"Error: {e}")
+
     finally:
         session.close()
 
 
 if __name__ == "__main__":
     load_questions()
+    
