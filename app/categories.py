@@ -1,38 +1,62 @@
 CATEGORIES: list[dict[str, str]] = [
     {
         "name": "ciencia",
-        "label": "Science and technology questions",
-        "description": "Questions about science, technology, scientific discoveries, and how things work.",
+        "label": "Science and technology",
+        "description": (
+            "Questions about natural sciences, physics, chemistry, biology, "
+            "astronomy, medicine, technology, inventions, scientific discoveries, "
+            "and how things work."
+        ),
         "dataset_config": "science-technology",
     },
+
     {
         "name": "geografia",
-        "label": "Geography questions about countries, capitals, and places",
-        "description": "Questions about countries, capitals, mountains, rivers, and world geography.",
+        "label": "Geography and places",
+        "description": (
+            "Questions about countries, capitals, cities, continents, "
+            "mountains, rivers, oceans, borders, maps, and locations."
+        ),
         "dataset_config": "geography",
     },
+
     {
         "name": "historia",
-        "label": "History questions about past events and figures",
-        "description": "Questions about historical events, dates, wars, and important historical figures.",
+        "label": "History and historical events",
+        "description": (
+            "Questions about historical events, dates, wars, civilizations, "
+            "historical periods, rulers, and important historical figures."
+        ),
         "dataset_config": "history",
     },
+
     {
         "name": "deporte",
-        "label": "Sports questions about athletes, teams, and competitions",
-        "description": "Questions about sports, athletes, teams, rules, and sporting events.",
+        "label": "Sports and sporting events",
+        "description": (
+            "Questions about sports, athletes, teams, competitions, "
+            "tournaments, championships, records, rules, and sporting events."
+        ),
         "dataset_config": "sports",
     },
+
     {
         "name": "arte",
-        "label": "Art and humanities questions",
-        "description": "Questions about art, artists, literature, philosophy, and humanities topics.",
+        "label": "Arts, literature, and humanities",
+        "description": (
+            "Questions about painting, sculpture, architecture, literature, "
+            "poetry, philosophy, artists, writers, art movements, and humanities."
+        ),
         "dataset_config": "humanities",
     },
+
     {
         "name": "entretenimiento",
-        "label": "Entertainment questions about movies, music, and pop culture",
-        "description": "Questions about movies, music, television, and general entertainment and pop culture.",
+        "label": "Entertainment and popular culture",
+        "description": (
+            "Questions about movies, television, music, actors, singers, "
+            "celebrities, fictional characters, video games, and popular culture."
+        ),
         "dataset_config": "entertainment",
     },
 ]

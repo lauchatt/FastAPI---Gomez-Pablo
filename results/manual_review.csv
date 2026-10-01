@@ -1,1 +1,48 @@
 question_id,question,human_category
+25108,The Doolittle raid was the first time the US bombed Japan in the Pacific War. The bombers were launched from an aircraft carrier but the Japanese did not know where the bombers came from. What place did President Roosevelt facetiously name as the place where the bombers had come from?,historia
+2198,"How many minutes did President Bush remain seated, reading My Pet Goat in a 3rd-grade classroom in Florida, after he was first told America is under attack on September 11, 2001?",historia
+1667,This George is one of the greatest English novelists. The term Big Brother comes from his book 1984.,historia
+2376,In his work The Chronology of the Ancient Kingdoms Amended this scholar studied a variety of mythological links to Atlantis.,ciencia
+12395,Which of these statements about the state of the human body during space flights has been proven?,ciencia
+13956,"On General Hospital, who has lawyer Alexis Davis not been romantically involved with?",entretenimiento
+18552,What event is celebrated on the Christian holiday called Pentecost?,geografia
+25931,Why did Top Dollar have a tenant relocation program in the movie The Crow?,entretenimiento
+23992,"This 1967 debut album of British rock band, Traffic, included the tracks Heaven Is in Your Mind and No Face, No Name, No Number.",arte
+42131,How many actresses auditioned for the coveted role of Scarlett OHara?,entretenimiento
+36459,Which U.S. state did the Seminole nation originally populate?,geografia
+5271,"After achieving success with his horror stories, this writer called himself Richard Bachman because he wanted to see if his novels would sell without his already famous name on them.",entretenimiento
+9051,"This actor starred in over 200 movies in his career from 1931-1989, usually playing bit parts. His more notable parts include the voice of the carnival barker in Pinocchio and his portrayal of a used car salesman in the movie Detour.",entretenimiento
+14674,In which of these major American sports does Detroit have a professional team?,deporte
+13759,"Bruce Wayne wanted to design a persona that struck terror into the heart of his enemies. In the original storyline, what made him decide to choose a bat?",entretenimiento
+34305,"This comedian, who starred in Ten Things I Hate About You as Dr. Walter Stratford, made the following observation about the difference between sexes: You have nooo idea... the difference in sex drive, between a man and woman, is like the difference between shooting a bullet and throwing it!",entretenimiento
+25092,What episode of South Park does NOT have any mention or references to Crab People?,entretenimiento
+13157,"This band was named after a common 1960s drug reference. They released the song Black Water, a number one hit in 1974.",geografia
+24572,"This team, nicknamed The Hurricanes, won three NCAA Football Titles in the 1980s.",deporte
+20119,Gamzigrad is an ancient Roman complex of palaces located in this European country.,geografia
+25747,"Its your first day on the job at your favorite diner! The waitress next to you yells out to the short order cook that she needs two cows, make them cry, and paint em red. What has she requested the short order cook to prepare?",entretenimiento
+5469,Each morning I appear,entretenimiento
+23230,"When Jennifer Aniston was a child, she spent a year of her life in this country.",geografia
+29705,"The Japanese words Mizaru, Kikazaru and Iwazaru, which embody the proverbial principle to see no evil, to hear no evil, and to speak no evil refer to what?",geografia
+8033,We call visible light the electromagnetic radiation belonging to the what wave range?,ciencia
+29747,"If the optimal body habitus for hot climates is tall and slender, what is one possible condition explaining pygmies?",ciencia
+9821,What item do you obtain from the 2006 Runescape Christmas Special?,entretenimiento
+23549,"In which fantasy-action film directed by Russell Mulcahy, the main character was born in the village of Glenfinnan on the shores of Loch Shiel?",entretenimiento
+36832,"The role of Cheryls father, on HBO sitcom, Curb Your Enthusiasm, is played by what actor?",entretenimiento
+1,Which song by Bruce Springsteen is about a little drag racer with big dreams?,entretenimiento,0.2900097966194153,arte,True,False
+2,What Charleton Heston movie won Best Picture at the 32nd annual Academy Awards?,entretenimiento,0.32605546712875366,entretenimiento,False,False
+3,"The best walleye fishing lake in North America, according to Field and Stream Magazine, is this lake in northeast central North Dakota.",geografia,0.3840528726577759,geografia,False,False
+5,Day Dreaming was a big hit song for this RB diva in the 1970s.,entretenimiento,0.24946674704551697,historia,True,False
+27,What was the name of Sex Pistols manager whose clothing shop in London influenced British punk fashion?,entretenimiento,0.265541136264801,arte,True,False
+33,"This actress, best known for her roles in Legally Blonde and Walk the Line, got engaged to Ryan Phillippe in 1998, and co-starred with him in the 1999 hit movie Cruel Intentions.",entretenimiento,0.2970575988292694,entretenimiento,False,False
+38,What is the name of the British sitcom about the Home Guard during World War II?,entretenimiento,0.296293169260025,entretenimiento,False,False
+48,This is the kind of rice you should use for your risotto.,geografia,0.2937830984592438,ciencia,True,False
+58,"What actor plays Dougs coworker and best friend, Deacon Palmer on the hit television sitcom The King of Queens?",entretenimiento,0.290056049823761,entretenimiento,False,False
+71,"In 1914, this catcher broke the record for throwing out base runners in an inning.",deporte,0.29496192932128906,deporte,False,False
+73,I Feel For You was a colossal hit song for this RB diva in 1984.,entretenimiento,0.2988858222961426,arte,True,False
+81,All That She Wants was big hit song for this group in 1993.,entretenimiento,0.2945789098739624,arte,True,False
+101,"Oklahoma is the birthplace of many famous astronauts, but this one was the first Native American in space.",ciencia,0.2893942892551422,ciencia,False,False
+107,Who was the second wrestler to become Mr. Money in the Bank?,entretenimiento,0.2953866124153137,deporte,True,False
+120,Jack Nicholson had a 16-year long relationship with this Oscar-winning actress.,entretenimiento,0.2917324900627136,entretenimiento,False,False
+122,Which great film director began his career as an underwater camera operator for Jacques-Yves Cousteau?,entretenimiento,0.2598396837711334,entretenimiento,False,False
+125,"At the end of Sesame Streets theme song there is a harmonica solo, played what famous jazz harmonica player?",arte,0.26926445960998535,arte,False,False
+160,Who released Sweet Sixteen in 1986?,entretenimiento,0.2991267740726471,arte,True,False

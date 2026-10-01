@@ -1,3 +1,4 @@
+
 """
 Clasificador de texto usando Sentence Transformers.
 
@@ -7,8 +8,10 @@ la categoría más relacionada con una pregunta.
 
 from dataclasses import dataclass
 
+import torch
 from sentence_transformers import SentenceTransformer
-from sklearn.metrics.pairwise import cosine_similarity
+
+from app.categories import CATEGORIES
 
 
 @dataclass
@@ -25,122 +28,101 @@ class ClassificationResult:
 class EmbeddingClassifier:
     """
     Clasificador basado en embeddings + similitud coseno.
+
+    Utiliza BGE-large para generar embeddings y compara cada
+    pregunta contra las descripciones de las categorías.
     """
 
-    CATEGORY_DESCRIPTIONS = {
-        "blocks": [
-            "Minecraft blocks",
-            "Minecraft building blocks",
-            "Minecraft building materials",
-            "Minecraft block properties",
-            "Minecraft stone, wood and decorative blocks",
-        ],
-
-        "items": [
-            "Minecraft items",
-            "Minecraft tools and weapons",
-            "Minecraft food and ingredients",
-            "Minecraft armor",
-            "Minecraft potions",
-            "Minecraft usable resources",
-        ],
-
-        "mobs": [
-            "Minecraft mobs",
-            "Minecraft creatures",
-            "Minecraft hostile and passive creatures",
-            "Minecraft mob behavior",
-            "Minecraft mob spawning",
-            "Minecraft mob combat",
-            "Minecraft mob drops",
-        ],
-
-        "world": [
-            "Minecraft biomes",
-            "Minecraft dimensions",
-            "Minecraft structures",
-            "Minecraft world generation",
-            "Minecraft terrain",
-            "Minecraft caves and oceans",
-            "Minecraft vegetation",
-            "Minecraft exploration",
-        ],
-
-        "redstone": [
-            "Minecraft redstone",
-            "Minecraft redstone components",
-            "Minecraft redstone mechanisms",
-            "Minecraft redstone circuits",
-            "Minecraft redstone contraptions",
-            "Minecraft redstone devices",
-            "Minecraft redstone automation",
-        ],
-
-        "commands": [
-            "Minecraft commands",
-            "Minecraft command syntax",
-            "Minecraft command blocks",
-            "Minecraft command usage",
-            "Minecraft teleport commands",
-            "Minecraft commands and command mechanics",
-        ],
-
-        "tutorials": [
-            "Minecraft tutorials",
-            "Minecraft tutorial hints",
-            "Minecraft controls",
-            "Minecraft HUD",
-            "Minecraft user interface",
-            "Minecraft instructions for learning how to play",
-            "Minecraft beginner instructions",
-        ],
-
-        "gameplay": [
-            "Minecraft gameplay mechanics",
-            "Minecraft inventory",
-            "Minecraft trading",
-            "Minecraft progression",
-            "Minecraft achievements",
-            "Minecraft statistics",
-            "Minecraft game rules",
-            "Minecraft general gameplay",
-        ],
-
-        "misc": [
-            "Minecraft game versions",
-            "Minecraft development history",
-            "Minecraft game development",
-            "Minecraft resource packs",
-            "Minecraft books",
-            "Minecraft official content",
-            "Minecraft miscellaneous topics",
-            "Minecraft topics that do not fit other categories",
-        ],
-    }
     def __init__(
         self,
-        model_name: str = "all-MiniLM-L6-v2",
+        model_name: str = "BAAI/bge-large-en-v1.5",
+        batch_size: int = 32,
     ):
         """
         Carga el modelo de Sentence Transformers.
+
+        Args:
+            model_name: Modelo de embeddings de Hugging Face.
+            batch_size: Cantidad de preguntas procesadas
+                        simultáneamente en GPU.
         """
 
         print(f"\nCargando modelo de embeddings: {model_name}...")
 
         self.model_name = model_name
-        self.model = SentenceTransformer(model_name)
+        self.batch_size = batch_size
 
-        # Precalculamos los embeddings de las categorías.
-        # No tiene sentido volver a calcularlos para cada pregunta.
-        self.category_embeddings = {}
+        # Usar GPU si está disponible.
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
 
-        for category, descriptions in self.CATEGORY_DESCRIPTIONS.items():
-            self.category_embeddings[category] = self.model.encode(
-                descriptions,
-                normalize_embeddings=True,
+        print(f"Dispositivo utilizado: {self.device}")
+
+        self.model = SentenceTransformer(
+            model_name,
+            device=self.device,
+        )
+
+        # ---------------------------------------------------------
+        # PREPARAR LAS CATEGORÍAS
+        # ---------------------------------------------------------
+
+        self.category_names = [
+            category["name"]
+            for category in CATEGORIES
+        ]
+
+        self.category_labels = {
+            category["name"]: category["label"]
+            for category in CATEGORIES
+        }
+
+        self.category_descriptions = {
+            category["name"]: category["description"]
+            for category in CATEGORIES
+        }
+
+        # ---------------------------------------------------------
+        # CREAR TEXTOS PARA LOS EMBEDDINGS
+        # ---------------------------------------------------------
+        #
+        # Usamos label + description para darle al embedding
+        # información suficiente sobre cada categoría.
+        #
+        # Ejemplo:
+        #
+        # "Science and technology questions.
+        #  Questions about science, technology..."
+        #
+        # ---------------------------------------------------------
+
+        category_texts = [
+            (
+                f"{category['label']}. "
+                f"{category['description']}"
             )
+            for category in CATEGORIES
+        ]
+
+        # ---------------------------------------------------------
+        # PRECALCULAR EMBEDDINGS
+        # ---------------------------------------------------------
+
+        print("Calculando embeddings de las categorías...")
+
+        category_embeddings = self.model.encode(
+            category_texts,
+            batch_size=batch_size,
+            normalize_embeddings=True,
+            convert_to_tensor=True,
+            show_progress_bar=False,
+        )
+
+        # Como los embeddings están normalizados,
+        # producto punto = similitud coseno.
+        self.category_embeddings = category_embeddings
 
         print(f"Modelo cargado: {model_name}")
+        print(f"Categorías cargadas: {len(self.category_names)}")
 
     def classify(
         self,
@@ -148,47 +130,23 @@ class EmbeddingClassifier:
         candidate_labels: list[str],
     ) -> ClassificationResult:
         """
-        Clasifica una pregunta comparándola con múltiples
-        descripciones de cada categoría.
+        Clasifica una pregunta.
+
+        Args:
+            text: Pregunta a clasificar.
+            candidate_labels: Categorías permitidas.
+
+        Returns:
+            ClassificationResult con la categoría elegida,
+            confianza y puntuaciones de todas las categorías.
         """
 
-        # Embedding de la pregunta
-        text_embedding = self.model.encode(
+        results = self.classify_batch(
             [text],
-            normalize_embeddings=True,
+            candidate_labels,
         )
 
-        all_scores = {}
-
-        for category in candidate_labels:
-
-            # Embeddings ya calculados de esta categoría
-            category_embeddings = self.category_embeddings[category]
-
-            # Comparar pregunta contra todas las descripciones
-            similarities = cosine_similarity(
-                text_embedding,
-                category_embeddings,
-            )[0]
-
-            # Nos quedamos con la mejor coincidencia
-            best_similarity = max(similarities)
-
-            all_scores[category] = float(best_similarity)
-
-        # Buscar la categoría con mayor similitud
-        category_name = max(
-            all_scores,
-            key=all_scores.get,
-        )
-
-        confidence_score = all_scores[category_name]
-
-        return ClassificationResult(
-            category_name=category_name,
-            confidence_score=confidence_score,
-            all_scores=all_scores,
-        )
+        return results[0]
 
     def classify_batch(
         self,
@@ -196,13 +154,96 @@ class EmbeddingClassifier:
         candidate_labels: list[str],
     ) -> list[ClassificationResult]:
         """
-        Clasifica múltiples preguntas.
+        Clasifica múltiples preguntas utilizando batch real.
+
+        Las preguntas se convierten a embeddings en grupos para
+        aprovechar la GPU.
         """
 
-        return [
-            self.classify(
-                text=text,
-                candidate_labels=candidate_labels,
-            )
-            for text in texts
+        if not texts:
+            return []
+
+        # ---------------------------------------------------------
+        # VALIDAR CATEGORÍAS
+        # ---------------------------------------------------------
+
+        for category in candidate_labels:
+            if category not in self.category_names:
+                raise ValueError(
+                    f"Categoría desconocida: {category}"
+                )
+
+        # Índices de las categorías solicitadas.
+        category_indices = [
+            self.category_names.index(category)
+            for category in candidate_labels
         ]
+
+        # Seleccionamos solamente los embeddings necesarios.
+        selected_category_embeddings = (
+            self.category_embeddings[category_indices]
+        )
+
+        # ---------------------------------------------------------
+        # EMBEDDINGS DE LAS PREGUNTAS
+        # ---------------------------------------------------------
+
+        text_embeddings = self.model.encode(
+            texts,
+            batch_size=self.batch_size,
+            normalize_embeddings=True,
+            convert_to_tensor=True,
+            show_progress_bar=True,
+        )
+
+        # ---------------------------------------------------------
+        # SIMILITUD COSENO
+        # ---------------------------------------------------------
+        #
+        # Como tanto las preguntas como las categorías están
+        # normalizadas:
+        #
+        # cosine_similarity(A, B) == A @ B.T
+        #
+        # Esto es mucho más eficiente que llamar a sklearn
+        # pregunta por pregunta.
+        # ---------------------------------------------------------
+
+        similarity_matrix = (
+            text_embeddings
+            @ selected_category_embeddings.T
+        )
+
+        results = []
+
+        # ---------------------------------------------------------
+        # CREAR RESULTADOS
+        # ---------------------------------------------------------
+
+        for row in similarity_matrix:
+
+            all_scores = {
+                category: float(score)
+                for category, score in zip(
+                    candidate_labels,
+                    row,
+                )
+            }
+
+            category_name = max(
+                all_scores,
+                key=all_scores.get,
+            )
+
+            confidence_score = all_scores[category_name]
+
+            results.append(
+                ClassificationResult(
+                    category_name=category_name,
+                    confidence_score=confidence_score,
+                    all_scores=all_scores,
+                )
+            )
+
+        return results
+

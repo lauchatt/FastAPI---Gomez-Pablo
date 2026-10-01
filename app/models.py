@@ -8,7 +8,16 @@ class Question(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     question = Column(Text, nullable=False)
+
+    # Respuesta correcta
     answer = Column(Text, nullable=False)
+
+    # Opciones que se muestran al jugador
+    option_1 = Column(Text, nullable=False)
+    option_2 = Column(Text, nullable=False)
+    option_3 = Column(Text, nullable=False)
+    option_4 = Column(Text, nullable=False)
+
     category = Column(String(100), nullable=True)
     source = Column(String(255), nullable=True)
 

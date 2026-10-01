@@ -8,6 +8,8 @@ from dataclasses import dataclass
 
 from transformers import pipeline
 
+from app.categories import CATEGORIES
+
 
 @dataclass
 class ClassificationResult:
@@ -22,54 +24,15 @@ class ClassificationResult:
 
 class AIClassifier:
     """
-    Clasificador de texto basado en IA.
+    Clasificador de texto basado en IA mediante zero-shot classification.
     """
 
-    CATEGORY_LABELS = {
-    "blocks": "Minecraft blocks, building materials, and block properties",
-
-    "items": (
-        "Minecraft items, tools, weapons, armor, food, ingredients, "
-        "potions, and usable resources"
-    ),
-
-    "mobs": (
-        "Minecraft mobs, creatures, their behavior, spawning, combat, "
-        "and drops"
-    ),
-
-    "world": (
-        "Minecraft biomes, dimensions, structures, terrain, "
-        "world generation, caves, oceans, and exploration"
-    ),
-
-    "redstone": (
-        "Minecraft redstone, mechanisms, circuits, components, "
-        "and redstone contraptions"
-    ),
-
-    "commands": (
-        "Minecraft commands, command syntax, command blocks, "
-        "and command-related mechanics"
-    ),
-
-    "tutorials": (
-        "Minecraft tutorials, tutorial hints, controls, HUD, "
-        "interface, and instructions for learning how to play"
-    ),
-
-    "gameplay": (
-        "Minecraft gameplay mechanics, inventory, trading, progression, "
-        "achievements, statistics, and general game rules"
-    ),
-
-    "misc": (
-        "Minecraft topics that do not fit into the other categories, "
-        "including versions, history, development, and other miscellaneous topics"
-    ),
-}
-
-    def __init__(self, model_name: str = "facebook/bart-large-mnli"):
+    def __init__(
+        self,
+        model_name: str = (
+            "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli"
+        ),
+    ):
         print(f"\nCargando modelo de IA: {model_name}...")
 
         self.model_name = model_name
@@ -90,9 +53,18 @@ class AIClassifier:
         Clasifica un texto contra las categorías candidatas.
         """
 
+        # Buscamos las categorías correspondientes
+        # a los nombres internos recibidos.
+        categories = [
+            category
+            for category in CATEGORIES
+            if category["name"] in candidate_labels
+        ]
+
+        # Etiquetas que recibe el modelo.
         model_labels = [
-            self.CATEGORY_LABELS[label]
-            for label in candidate_labels
+            category["label"]
+            for category in categories
         ]
 
         result = self.pipeline(
@@ -104,8 +76,8 @@ class AIClassifier:
         # Convertimos las etiquetas del modelo
         # nuevamente a nuestros nombres internos.
         label_to_name = {
-            label: name
-            for name, label in self.CATEGORY_LABELS.items()
+            category["label"]: category["name"]
+            for category in categories
         }
 
         all_scores = {}
@@ -117,8 +89,8 @@ class AIClassifier:
             category_name = label_to_name[label]
             all_scores[category_name] = float(score)
 
-        category_name = result["labels"][0]
-        category_name = label_to_name[category_name]
+        # La primera etiqueta es la que obtuvo mayor puntuación.
+        category_name = label_to_name[result["labels"][0]]
 
         confidence_score = float(result["scores"][0])
 
