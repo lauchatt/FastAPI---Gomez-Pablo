@@ -1,0 +1,499 @@
+question_id,question,human_category
+25108,The Doolittle raid was the first time the US bombed Japan in the Pacific War. The bombers were launched from an aircraft carrier but the Japanese did not know where the bombers came from. What place did President Roosevelt facetiously name as the place where the bombers had come from?,historia
+2198,"How many minutes did President Bush remain seated, reading My Pet Goat in a 3rd-grade classroom in Florida, after he was first told America is under attack on September 11, 2001?",historia
+1667,This George is one of the greatest English novelists. The term Big Brother comes from his book 1984.,historia
+2376,In his work The Chronology of the Ancient Kingdoms Amended this scholar studied a variety of mythological links to Atlantis.,ciencia
+12395,Which of these statements about the state of the human body during space flights has been proven?,ciencia
+13956,"On General Hospital, who has lawyer Alexis Davis not been romantically involved with?",entretenimiento
+18552,What event is celebrated on the Christian holiday called Pentecost?,geografia
+25931,Why did Top Dollar have a tenant relocation program in the movie The Crow?,entretenimiento
+23992,"This 1967 debut album of British rock band, Traffic, included the tracks Heaven Is in Your Mind and No Face, No Name, No Number.",arte
+42131,How many actresses auditioned for the coveted role of Scarlett OHara?,entretenimiento
+36459,Which U.S. state did the Seminole nation originally populate?,geografia
+5271,"After achieving success with his horror stories, this writer called himself Richard Bachman because he wanted to see if his novels would sell without his already famous name on them.",entretenimiento
+9051,"This actor starred in over 200 movies in his career from 1931-1989, usually playing bit parts. His more notable parts include the voice of the carnival barker in Pinocchio and his portrayal of a used car salesman in the movie Detour.",entretenimiento
+14674,In which of these major American sports does Detroit have a professional team?,deporte
+13759,"Bruce Wayne wanted to design a persona that struck terror into the heart of his enemies. In the original storyline, what made him decide to choose a bat?",entretenimiento
+34305,"This comedian, who starred in Ten Things I Hate About You as Dr. Walter Stratford, made the following observation about the difference between sexes: You have nooo idea... the difference in sex drive, between a man and woman, is like the difference between shooting a bullet and throwing it!",entretenimiento
+25092,What episode of South Park does NOT have any mention or references to Crab People?,entretenimiento
+13157,"This band was named after a common 1960s drug reference. They released the song Black Water, a number one hit in 1974.",geografia
+24572,"This team, nicknamed The Hurricanes, won three NCAA Football Titles in the 1980s.",deporte
+20119,Gamzigrad is an ancient Roman complex of palaces located in this European country.,geografia
+25747,"Its your first day on the job at your favorite diner! The waitress next to you yells out to the short order cook that she needs two cows, make them cry, and paint em red. What has she requested the short order cook to prepare?",entretenimiento
+5469,Each morning I appear,entretenimiento
+23230,"When Jennifer Aniston was a child, she spent a year of her life in this country.",geografia
+29705,"The Japanese words Mizaru, Kikazaru and Iwazaru, which embody the proverbial principle to see no evil, to hear no evil, and to speak no evil refer to what?",geografia
+8033,We call visible light the electromagnetic radiation belonging to the what wave range?,ciencia
+29747,"If the optimal body habitus for hot climates is tall and slender, what is one possible condition explaining pygmies?",ciencia
+9821,What item do you obtain from the 2006 Runescape Christmas Special?,entretenimiento
+23549,"In which fantasy-action film directed by Russell Mulcahy, the main character was born in the village of Glenfinnan on the shores of Loch Shiel?",entretenimiento
+36832,"The role of Cheryls father, on HBO sitcom, Curb Your Enthusiasm, is played by what actor?",entretenimiento
+1,Which song by Bruce Springsteen is about a little drag racer with big dreams?,entretenimiento,0.2900097966194153,arte,True,False
+2,What Charleton Heston movie won Best Picture at the 32nd annual Academy Awards?,entretenimiento,0.32605546712875366,entretenimiento,False,False
+3,"The best walleye fishing lake in North America, according to Field and Stream Magazine, is this lake in northeast central North Dakota.",geografia,0.3840528726577759,geografia,False,False
+5,Day Dreaming was a big hit song for this RB diva in the 1970s.,entretenimiento,0.24946674704551697,historia,True,False
+27,What was the name of Sex Pistols manager whose clothing shop in London influenced British punk fashion?,entretenimiento,0.265541136264801,arte,True,False
+33,"This actress, best known for her roles in Legally Blonde and Walk the Line, got engaged to Ryan Phillippe in 1998, and co-starred with him in the 1999 hit movie Cruel Intentions.",entretenimiento,0.2970575988292694,entretenimiento,False,False
+38,What is the name of the British sitcom about the Home Guard during World War II?,entretenimiento,0.296293169260025,entretenimiento,False,False
+48,This is the kind of rice you should use for your risotto.,geografia,0.2937830984592438,ciencia,True,False
+58,"What actor plays Dougs coworker and best friend, Deacon Palmer on the hit television sitcom The King of Queens?",entretenimiento,0.290056049823761,entretenimiento,False,False
+71,"In 1914, this catcher broke the record for throwing out base runners in an inning.",deporte,0.29496192932128906,deporte,False,False
+73,I Feel For You was a colossal hit song for this RB diva in 1984.,entretenimiento,0.2988858222961426,arte,True,False
+81,All That She Wants was big hit song for this group in 1993.,entretenimiento,0.2945789098739624,arte,True,False
+101,"Oklahoma is the birthplace of many famous astronauts, but this one was the first Native American in space.",ciencia,0.2893942892551422,ciencia,False,False
+107,Who was the second wrestler to become Mr. Money in the Bank?,entretenimiento,0.2953866124153137,deporte,True,False
+120,Jack Nicholson had a 16-year long relationship with this Oscar-winning actress.,entretenimiento,0.2917324900627136,entretenimiento,False,False
+122,Which great film director began his career as an underwater camera operator for Jacques-Yves Cousteau?,entretenimiento,0.2598396837711334,entretenimiento,False,False
+125,"At the end of Sesame Streets theme song there is a harmonica solo, played what famous jazz harmonica player?",arte,0.26926445960998535,arte,False,False
+160,Who released Sweet Sixteen in 1986?,entretenimiento,0.2991267740726471,arte,True,False
+166,Boogie on Reggae Woman was a hit song for this ultra talented performer in 1975.,entretenimiento,0.26575303077697754,entretenimiento,False,False
+173,What Eric Clapton song was used in a commercial for Michelob beer?,entretenimiento,0.29835352301597595,entretenimiento,False,False
+191,"Although it looks a lot like the World War II bazooka, the US Army Javelin anti-armor weapon has this advantage over other weapons of its type.",historia,0.2621939182281494,historia,False,False
+193,"This British car make was founded under the name Swallow Sidecar Company in 1922, and is known for its elegant sports cars and luxury saloons.",geografia,0.29170411825180054,geografia,False,False
+197,Comedian and illusionist Penn Jillette chose this unusual name for his daughter.,entretenimiento,0.28011763095855713,ciencia,True,False
+203,Which of these actresses co-stars with Alan Rickman in the movie Snow Cake?,entretenimiento,0.29756271839141846,ciencia,True,False
+208,"This band, formed in Nottingham in 1969, recorded the song The Night Chicago Died, which starts with the following words: My daddy was a cop on the east side of Chicago.",geografia,0.2527930736541748,entretenimiento,True,False
+211,He was the only Pope of non-Italian origin since the Dutch-German Pope Adrian VI.,historia,0.2402704805135727,historia,False,False
+232,Which of these actors made his debut at the age of 5 in a movie written and directed by his father?,entretenimiento,0.29916247725486755,entretenimiento,False,False
+242,At what clothing company did Sue Ellen work in the comedy film Dont Tell Mom the Babysitters Dead?,entretenimiento,0.2976888418197632,entretenimiento,False,False
+260,"In the soap opera Days of our Lives, Lawrence Alamain is this persons brother.",historia,0.2916691303253174,entretenimiento,True,False
+304,"When the X-Men have their mutant powers stripped in the Savage Land, who is the only mutant to escape the initial attack?",geografia,0.2829735279083252,entretenimiento,True,False
+306,"This drummer, famous as the only member who appeared on every Pink Floyd album, wrote the book Inside Out: A Personal History of Pink Floyd.",arte,0.25545740127563477,arte,False,False
+319,Dutch independence from Spain (1648) was recognized in this Treaty.,geografia,0.28877633810043335,historia,True,False
+341,"Awarded with Best Picture from the Independent Spirit Awards, this drama is based on the murder of 14-year-old Marcy Renee Conrad.",entretenimiento,0.23561957478523254,entretenimiento,False,False
+353,"In the TV series Family Ties, this actress played Elyse Keaton, the mother of 4 children.",entretenimiento,0.2715417742729187,entretenimiento,False,False
+357,These actors played ex-cop Frank MacBride and ex-con Pete Ryan who started their own detective agency on the TV show Switch.,entretenimiento,0.28668010234832764,entretenimiento,False,False
+359,In 1987 Don Cheadle starred as Pvt. Washburn in this movie about Vietnam.,entretenimiento,0.29539287090301514,entretenimiento,False,False
+362,"This Hungarian dish, meaning cowherd, is prepared with beef, onion, red peppers and paprika.",geografia,0.2993086278438568,geografia,False,False
+366,"Which actress played the oldest sister, Marcia Brady, on The Brady Bunch?",entretenimiento,0.2639857530593872,entretenimiento,False,False
+393,"What was The Pussycat Dollss debut single, recorded in 2004?",entretenimiento,0.2906543016433716,arte,True,False
+411,Who does Michael Corleone give the kiss of death in one of the most memorable scenes of the movie Godfather II?,entretenimiento,0.29480233788490295,entretenimiento,False,False
+446,What girl band performed the 1986 hit song Walk Like an Egyptian?,entretenimiento,0.28593361377716064,arte,True,False
+455,"This very old cat breed, which occurred naturally in Turkey, has a slender body with medium length fur, usually white.",geografia,0.2935371398925781,ciencia,True,False
+470,"In 1983 John Lithgow played Sam Burns in this chick movie that starred Shirley MacLaine, Debra Winger, Jeff Daniels and Jack Nicholson.",entretenimiento,0.2924622893333435,entretenimiento,False,False
+474,"When Joss Stone was 14, she auditioned for this television talent show singing Aretha Franklins You Make Me Feel Like A Natural Woman and Whitney Hustons Its Not Right but Its Okay.",entretenimiento,0.2675788998603821,entretenimiento,False,False
+479,"Which of these great guitarists did not play for The Yardbirds, the band that became Led Zeppelin?",arte,0.28676271438598633,arte,False,False
+492,"Helen Hayes son, James, starred in this 70s police drama.",entretenimiento,0.2959279417991638,entretenimiento,False,False
+528,Made In Japan was released by which rock group?,entretenimiento,0.2754877209663391,arte,True,False
+562,This biblical heroine hid two Israelite spies in her house under stalks of flax.,historia,0.26420873403549194,ciencia,True,False
+635,"Reese Witherspoon made her film debut, playing the 14- year-old tomboy, Danielle Trant, in which movie?",entretenimiento,0.2989693880081177,entretenimiento,False,False
+647,What villain did Michael Keaton face in his first Batman movie?,entretenimiento,0.27838462591171265,entretenimiento,False,False
+650,"What Aerosmith song are the following lyrics from: That kind of lovin, sends a man, to his grave?",entretenimiento,0.2988046407699585,arte,True,False
+652,Which one of these men did Marlena cheat on on Days of Our Lives?,entretenimiento,0.27187687158584595,entretenimiento,False,False
+675,"Annie Lennox and Dave Stewart comprise this musical act formed in 1980, which has since sold over 75 million records.",entretenimiento,0.2935882806777954,arte,True,False
+678,In 1980 this American cable television network started broadcasting and in 1991 it became the first black-controlled company on the New York Stock Exchange.,entretenimiento,0.27129194140434265,entretenimiento,False,False
+680,Aurora Greenway and Garrett Breedlove were Oscar-winning roles in this movie.,entretenimiento,0.2506859302520752,arte,True,False
+690,This 1961 Western is the only movie directed by Marlon Brando. He also portrayed the lead character in the movie.,entretenimiento,0.2963413894176483,entretenimiento,False,False
+696,Which of these musicians became the first US musical group ever to perform in North Korea?,entretenimiento,0.26734858751296997,arte,True,False
+699,"In 1927, Duke Ellington and his band, The Washingtonians were offered a permanent job at which famous Harlem club?",geografia,0.287878155708313,geografia,False,False
+701,What actress starred in the 1996 disaster movie Twister?,entretenimiento,0.29034608602523804,arte,True,False
+710,"This country singer played in the 2004 remake of the 1975 movie, The Stepford Wives, a story about 1950s housewives.",entretenimiento,0.29752451181411743,entretenimiento,False,False
+714,What 1973 album is considered Pink Floyds most successful release?,arte,0.2888721823692322,arte,False,False
+728,Who gets married at the end of Season One of the TV series One Tree Hill?,entretenimiento,0.268241822719574,entretenimiento,False,False
+746,This song was a #1 hit in the U.S. for Wilson Phillips in 1990.,entretenimiento,0.272219181060791,arte,True,False
+747,"In 1982, this British R-n-B group recorded a song called, Just an Illusion, that was also featured in the movie F/X.",entretenimiento,0.258111834526062,entretenimiento,False,False
+756,This city in the United States claims to house the largest ball of twine which was built by millionaire J. C. Payne.,geografia,0.2920604348182678,geografia,False,False
+773,Which Muppet Show character blows the trumpet at the end of the opening song?,entretenimiento,0.28324422240257263,entretenimiento,False,False
+777,What was the name of the band Ritchie Valens joined at the age of 16?,entretenimiento,0.2855222821235657,entretenimiento,False,False
+813,The koala is the only animal species on the planet to possess this quality.,deporte,0.2948216199874878,deporte,False,False
+834,"She attended Erasmus Hall High School as a teenager, where she sang in the choir with Neil Diamond.",arte,0.26640599966049194,arte,False,False
+838,This heroine is perhaps the most feminist of Disneys female characters.,arte,0.2703006863594055,arte,False,False
+847,Which former US President said I know Im getting better at golf because I hit fewer spectators.,entretenimiento,0.27358612418174744,entretenimiento,False,False
+863,"Who was supposed to direct Fear and Loathing in Las Vegas, before Terry Gliliam took over?",entretenimiento,0.28328222036361694,entretenimiento,False,False
+868,"This cat breed, which appeared naturally in Thailand, has a slim body and short fur with point coloration.",geografia,0.2890506386756897,ciencia,True,False
+877,Which sister has died by a dart poisoning on the TV show Charmed?,entretenimiento,0.26658573746681213,entretenimiento,False,False
+900,This blues song written by Billy Roberts was Jimi Hendrix first hit.,historia,0.25167757272720337,historia,False,False
+909,"This actress became the first French person to win an Academy Award, for her role in the film Room at the Top.",entretenimiento,0.2876747250556946,entretenimiento,False,False
+915,This group had a very popular album in the 1990s called Nevermind.,entretenimiento,0.2915346622467041,entretenimiento,False,False
+932,This 1981 Italian film was set in New Orleans at the Seven Doors Hotel which was supposedly built over the gates of hell.,historia,0.296256959438324,historia,False,False
+934,Who is the owner of the blue Aston Martin DB6 in which Prince William and his bride Kate Middleton departed their wedding reception?,entretenimiento,0.295783668756485,entretenimiento,False,False
+938,This Grammy Award-winning female singer was in a band called Rufus and had a monster hit in 1974 with Tell Me Something Good.,entretenimiento,0.28034690022468567,entretenimiento,False,False
+950,In 1955 this baseball Hall of Famer broke the record for most consecutive times struck out.,arte,0.2741856276988983,arte,False,False
+958,Who had previously owned the Bel Air mansion bought by Sir Tom Jones upon moving to the United States in 1974?,geografia,0.2924988865852356,geografia,False,False
+965,"This actor won an Academy Award for portraying Atticus Finch, a character from Harper Lees only novel, who represents the ideal of a lawyer and father.",entretenimiento,0.28945088386535645,entretenimiento,False,False
+967,"Which original member of the Pin Pals, Homer Simpsons bowling team, is forced by circumstances to give up his place in the team?",entretenimiento,0.2796702980995178,entretenimiento,False,False
+972,Who plays Summer Roberts on the TV show The O.C.?,entretenimiento,0.27709686756134033,entretenimiento,False,False
+982,"This gospel group was formed on the spur of the moment in 1980 when it performed the song First Day In Heaven. Some of its famous members are Russ Taff, Guy Penrod and Mark Lowry.",entretenimiento,0.2954077422618866,entretenimiento,False,False
+1007,"Manfred Manns Earth Band had a big hit in 1976 with Blinded by Light, a song written and originally recorded by this musician.",entretenimiento,0.276325523853302,entretenimiento,False,False
+1012,Keanu Reeves plays FBI agent Johnny Utah in which 1991 movie?,entretenimiento,0.2750914692878723,entretenimiento,False,False
+1027,What Spanish duo sang the smash hit Macarena in the summer of 1996?,entretenimiento,0.2831873893737793,entretenimiento,False,False
+1028,"This former American football wide receiver, nicknamed Bambi, was inducted into the Pro Football Hall of Fame in 1978.",entretenimiento,0.2805851399898529,entretenimiento,False,False
+1032,"Early members of this band, famous for the hit Itchykoo Park, went on to play with The Who and Humble Pie.",entretenimiento,0.26891404390335083,entretenimiento,False,False
+1049,What Gryffindor House ghost does John Cleese play in the Harry Potter film series?,entretenimiento,0.2607067823410034,entretenimiento,False,False
+1055,Which of these actresses did not appear in the 1997 horror movie I Know What You Did Last Summer?,entretenimiento,0.24018681049346924,entretenimiento,False,False
+1090,"This aircraft was proposed by Boeing in the 80s, but never entered production due to excessive noise from its unducted fan engines and high production costs.",entretenimiento,0.22166311740875244,entretenimiento,False,False
+1119,"Who sang the massive, international 1974 hit, Beach Baby?",geografia,0.2970586121082306,geografia,False,False
+1160,What was the maiden name of Jacqueline Kennedy who was of French descent?,historia,0.28504762053489685,historia,False,False
+1216,"This plantation located in Louisiana is said to be haunted by the vengeful ghost of a slave named Chloe, who supposedly murdered the wife and daughters of the owner.",historia,0.2658904194831848,historia,False,False
+1241,Several Major Leaguers have had multiple 50-plus home run seasons. Which player listed below has NOT accomplished this feat at least 3 times?,deporte,0.29620617628097534,deporte,False,False
+1245,What Coronation Street character broke Fred Elliots heart after he proposed to her in France?,entretenimiento,0.24543075263500214,entretenimiento,False,False
+1269,This 1950s Western series starred Amanda Blake and James Arness.,entretenimiento,0.2782042622566223,entretenimiento,False,False
+1289,What song won the Grammy Award for Record of the Year in 1999?,entretenimiento,0.27612945437431335,entretenimiento,False,False
+1290,What rock band brought us the song I Feel Free in 1966?,entretenimiento,0.2858521342277527,entretenimiento,False,False
+1317,This white Chinchilla longhair became a movie star in such films as Diamonds are Forever and Clockwork Orange.,entretenimiento,0.29314836859703064,entretenimiento,False,False
+1335,"The actor who played Duckie in the 1986 film Pretty in Pink also starred in what popular CBS sitcom, which began airing in 2003?",entretenimiento,0.2947719097137451,entretenimiento,False,False
+1341,"This 1967 hit that opens with the line You know that it would be untrue, you know that I would be a liar, was recorded by The Doors.",entretenimiento,0.22772008180618286,entretenimiento,False,False
+1342,This Triple Crown winner was an outfielder for the Cincinnati Reds until he was traded to the Orioles for Milt Pappas.,deporte,0.28056854009628296,deporte,False,False
+1343,Who stars as a private eye and former Secret Service agent in Tony Scotts action movie The Last Boy Scout?,entretenimiento,0.2829102873802185,entretenimiento,False,False
+1349,"It was the largest rough diamond ever found, weighing in at 3 106 carats.",geografia,0.29891782999038696,geografia,False,False
+1351,This Major Leaguer was the college roommate of the great wide receiver Lynn Swann.,deporte,0.2888789772987366,deporte,False,False
+1386,Which Alien film was not nominated for an Oscar in any category?,ciencia,0.2938193678855896,ciencia,False,False
+1418,What female musician wrote the song A Rose Is Still a Rose for Aretha Franklin?,arte,0.2954413592815399,arte,False,False
+1449,"This reggae song was co-written and recorded by Bob Marley in 1980, and was released in 1983.",deporte,0.25922462344169617,deporte,False,False
+1471,The mass suicide in Jonestown took place on this day in 1978.,historia,0.28449058532714844,historia,False,False
+1491,Who was the winner of the Grammy Award for Record of the Year in 1992?,arte,0.26260456442832947,arte,False,False
+1496,"Which Baldwin was born May 12, 1966, making him the youngest of the brothers?",arte,0.2961198091506958,arte,False,False
+1515,This singer gave us the hit song from 1977 called Its Ecstasy When You Lay Down Next to Me.,entretenimiento,0.2575893998146057,entretenimiento,False,False
+1518,What movie directed by Tim Burton was filmed completely in black-and-white?,entretenimiento,0.29700085520744324,entretenimiento,False,False
+1521,What rock band recorded the song Hotel California in 1976?,entretenimiento,0.2634724974632263,entretenimiento,False,False
+1525,What actor portrayed Thomas Edward Lawrence in the 1962 movie Lawrence of Arabia?,entretenimiento,0.28130823373794556,entretenimiento,False,False
+1574,"In the cartoon series The Fairly OddParents, which of Timmys friends wears braces?",entretenimiento,0.29608407616615295,entretenimiento,False,False
+1580,Who were the original members of Deep Purple?,arte,0.28084516525268555,arte,False,False
+1585,What actress portrays Sally in the 1989 romantic comedy movie When Harry Met Sally...?,entretenimiento,0.29749834537506104,entretenimiento,False,False
+1598,Which New York Yankee pitcher was known as Louisiana Lightning?,deporte,0.2852722108364105,deporte,False,False
+1613,What was the first Motown song to land in the top 3 of the charts?,entretenimiento,0.2878713309764862,entretenimiento,False,False
+1618,This singer had a huge hit in 1991 with Blowing Kisses in the Wind.,entretenimiento,0.2920587956905365,entretenimiento,False,False
+1623,"This Texas mom, convicted in 1996 of killing her 2 young sons, claimed an intruder broke in and murdered them.",historia,0.24502360820770264,historia,False,False
+1628,Who was the first NBA player to win Rookie of the Year and MVP in the same season?,deporte,0.2968110144138336,deporte,False,False
+1642,Which actress played Denise Huxtable on the 80s sitcom The Cosby Show?,entretenimiento,0.28708815574645996,entretenimiento,False,False
+1645,"In the Friends show, Season 7, TOW the Nap Partners, which two of the Friends accidentally fell asleep all snuggled up together on a couch, then woke up and screamed when they realized what they had done?",entretenimiento,0.29934534430503845,entretenimiento,False,False
+1647,The song I Love Rock n Roll was easily the BIGGEST song ever for this group in 1981.,entretenimiento,0.28505709767341614,entretenimiento,False,False
+1653,Which of the following guitarists was never a member of The Yardbirds?,arte,0.2265133410692215,arte,False,False
+1660,Who recorded Exit Stage Left?,entretenimiento,0.29067564010620117,entretenimiento,False,False
+1663,"Louis Armstrong sings this great, old, romantic song on the Sleepless in Seattle soundtrack.",geografia,0.28520095348358154,geografia,False,False
+1681,How many calories does one biscuit from Popeyes have?,entretenimiento,0.2801962196826935,entretenimiento,False,False
+1729,"The name of this company, founded by Fusajiro Yamauchi in 1889, roughly translates as leave luck to heaven.",deporte,0.2888576090335846,deporte,False,False
+1734,What song was a #1 hit on the U.S charts for The Doors in 1967?,arte,0.27702653408050537,arte,False,False
+1737,"What song by Irish band U2 contains the line, Blue-eyed boy meets a brown-eyed girl?",entretenimiento,0.2988792657852173,entretenimiento,False,False
+1740,In which novel does the evil Injun Joe appear?,entretenimiento,0.2867906987667084,entretenimiento,False,False
+1742,This 1986 comedy western file was written by Steve Martin and Lorne Michaels.,entretenimiento,0.2874031066894531,entretenimiento,False,False
+1743,Which group recorded the melancholy ballad Ill Follow the Sun?,entretenimiento,0.27192258834838867,entretenimiento,False,False
+1749,"This English guitarist, singer-songwriter and pianist is best known for his work with Humble Pie and his signature model Les Paul.",entretenimiento,0.28322672843933105,entretenimiento,False,False
+1752,What was the name of Richard Nixons wife?,entretenimiento,0.28209617733955383,entretenimiento,False,False
+1758,"Absinthe was prohibited in this year, because it was believed to be reason for elevated crime rates.",historia,0.29971298575401306,historia,False,False
+1759,Who produced all of Led Zeppelins albums?,arte,0.29577988386154175,arte,False,False
+1762,Which of these movies won the Golden Raspberry Award for Worst Picture for 1980?,entretenimiento,0.2942018508911133,entretenimiento,False,False
+1771,This winner of the 2003 Thrashworld Skateboarding Vert Award was the first man to jump the Great Wall of China on a skateboard.,geografia,0.28560397028923035,geografia,False,False
+1774,What Francis Ford Coppola movie earned Al Pacino his first Academy Award nomination?,arte,0.26613274216651917,arte,False,False
+1775,"This cat breed, developed by American breeder Ann Baker, is large and has blue eyes and soft fluffy coat with point coloration.",geografia,0.284595251083374,geografia,False,False
+1791,What type of cheese is the Gorgonzola cheese?,arte,0.2870173454284668,arte,False,False
+1800,"He starred in one episode of the Beverly Hillbillies as Fred Ziffel, in 37 episodes of Green Acres as Fred Ziffel and in 31 episodes of Gunsmoke as Hank Miller.",entretenimiento,0.29608815908432007,entretenimiento,False,False
+1823,Linda Lavin starred in this 1970s comedy show which focused on a mother and her son trying to find a better life for themselves.,entretenimiento,0.2903163731098175,entretenimiento,False,False
+1839,"This reptile, endemic to new Zealand, is the only surviving rhynchocephalian.",geografia,0.25328654050827026,geografia,False,False
+1840,Who was the first singer to perform at the legendary 60s Woodstock Festival?,entretenimiento,0.28489670157432556,entretenimiento,False,False
+1851,Which two Linkin Park members were featured on Ademas The Way You Like It?,entretenimiento,0.29990845918655396,entretenimiento,False,False
+1926,This villain from a 1964 Bond movie ranks #49 on AFIs list of the 50 top villains.,entretenimiento,0.2693161368370056,entretenimiento,False,False
+1864,This one hit wonder had a mammoth hit in 1975 with Feelings.,entretenimiento,0.29087772965431213,entretenimiento,False,False
+1865,She played one of the Monroe Brothers on Green Acres alongside actor Sid Melton.,entretenimiento,0.2646259665489197,entretenimiento,False,False
+1867,"In this 2002 dramatic film Michelle Pfeiffer plays Ingrid Magnussen, a free-spirited mother who falls in love and then murders the man that broke her heart, receiving a life sentence in prison and throwing her 15-year-old daughter into foster care.",entretenimiento,0.25478002429008484,entretenimiento,False,False
+1888,With which one of these artists did Aaliyah not collaborate throughout her career?,entretenimiento,0.2871747612953186,entretenimiento,False,False
+1899,Which of these songs does Lilly start singing to the inmates of the prison in the 2003 movie The Fighting Temptations?,entretenimiento,0.299759179353714,arte,True,False
+1901,Who was the only African-American awarded an Oscar for an acting performance in one of the 100 American films on AFIs list?,entretenimiento,0.2835319936275482,arte,True,False
+1907,Who was the very first woman to win the Miss America competition?,deporte,0.283462256193161,deporte,False,False
+1910,"This county seat, known as the Silk City, is the home city to famous American actor and comedian Lou Costello.",geografia,0.29282665252685547,geografia,False,False
+1927,"What band performed Free Bird, That Smell, Gimme Back My Bullets, Sweet Home Alabama?",entretenimiento,0.2952990233898163,arte,True,False
+1929,This extremely expensive 2004 movie directed by Oliver Stone barely managed to cover its enormous production costs.,entretenimiento,0.2647688388824463,entretenimiento,False,False
+1939,Who did Steve Carell marry in the 1990s?,entretenimiento,0.2610153257846832,entretenimiento,False,False
+1961,"What thriller set in Mexico and directed by Tony Scott, starred Kevin Costner, Madeleine Stowe and Anthony Quinn?",entretenimiento,0.25869837403297424,entretenimiento,False,False
+1968,"Who recorded Thriller, the #20 album on Rolling Stones list of top albums?",entretenimiento,0.28835639357566833,arte,True,False
+1969,What album by The Beatles includes the songs Come Together and Maxwells Silver Hammer?,arte,0.2880083918571472,arte,False,False
+1974,"What Academy Award-winning movie directed by Oliver Stone featured Kevin Costner, Tommy Lee Jones, Gary Oldman and Joe Pesci?",entretenimiento,0.24651019275188446,entretenimiento,False,False
+1976,"Which film, directed by Ron Howard, stars Keanu Reeves as Tod Higgins?",entretenimiento,0.2850196063518524,entretenimiento,False,False
+2004,This group had a very popular song in 1971 called L.A. Woman.,entretenimiento,0.27404457330703735,entretenimiento,False,False
+2018,The actress who played Isabel Evans on Roswell was cast in what television drama in 2005?,entretenimiento,0.29566454887390137,entretenimiento,False,False
+2033,Jungle Boogie was a hit song for this popular RB band in the early 1970s.,entretenimiento,0.27186864614486694,arte,True,False
+2052,"In 1995, this 1994 movie won the Oscar for Best Picture at the 67the Academy Awards ceremony.",entretenimiento,0.29027867317199707,entretenimiento,False,False
+2059,Smile a Little Smile For Me was a big hit song for this one hit wonder in 1969.,entretenimiento,0.29056400060653687,arte,True,False
+2060,"In 2001, the Guinness Book of World Records recognized her as the most successful female musician.",entretenimiento,0.26335686445236206,deporte,True,False
+2063,"This film, directed by Alfred Jackson, was released by Disney on December 21, 1937 and featured Billy Gilbert as Sneezy.",entretenimiento,0.2870362401008606,entretenimiento,False,False
+2065,Which of these 1997 nominees won the Razzie Award for Worst Picture?,entretenimiento,0.28735679388046265,entretenimiento,False,False
+2066,Which member of KISS wrote Hard Luck Woman?,entretenimiento,0.2897321283817291,arte,True,False
+2093,Jack Klugman portrayed a strong-willed Medical Examiner on which TV show?,entretenimiento,0.29663294553756714,entretenimiento,False,False
+2111,"What is the name of the band of which David Bryan and Jon Bon Jovi were members, before the formation of Bon Jovi?",entretenimiento,0.29369407892227173,arte,True,False
+2114,"This Emmy Award-winning actress played Marilla in the 1985 television production of Anne of Green Gables, written and directed by Kevin Sullivan.",entretenimiento,0.28870096802711487,entretenimiento,False,False
+2115,Which British movie won 8 Oscars?,entretenimiento,0.2702581286430359,entretenimiento,False,False
+2119,This is where Tom proposed to Katie Holmes in June 2005.,geografia,0.28624218702316284,geografia,False,False
+2121,"This actor, who played Juror #4 in the movie 12 Angry Men, also starred as Ev Hillman in the The Tommyknockers.",entretenimiento,0.2805812358856201,entretenimiento,False,False
+2168,Which musician is considered the first real jazz guitar virtuoso?,arte,0.28250694274902344,arte,False,False
+2137,You Can Call Me Al was a hit song for this singer in the 1980s.,entretenimiento,0.2864281237125397,entretenimiento,False,False
+2150,Which one of these actresses was not a regular cast member on the hit 70s sitcom Soap?,entretenimiento,0.2898068428039551,entretenimiento,False,False
+2166,The cable cars of this city are the only mobile National Monument.,geografia,0.24894024431705475,geografia,False,False
+2176,Which of the following catchers had the most home runs during his MLB career?,entretenimiento,0.2993910312652588,entretenimiento,False,False
+2182,This Coptic Orthodox monastery is located in an oasis in the Eastern Desert of Egypt.,geografia,0.28267911076545715,geografia,False,False
+2193,"In order to preserve their elaborate coiffures, these women slept with their heads on bags filled with buckwheat chaff.",arte,0.20101448893547058,arte,False,False
+2195,Robert De Niro won his first Academy Award for the portrayal of this former boxing champion.,deporte,0.26766878366470337,deporte,False,False
+2203,This 1981 film was Jack Albertsons final film and included a scene with a dissolving head.,entretenimiento,0.27081990242004395,entretenimiento,False,False
+2218,"Which of these is the mountain that boasts a skiing area, a lodge complete with cabins, hiking trails, and alpine terrain all within 50 miles of the center of the Las Vegas valley?",geografia,0.28154072165489197,geografia,False,False
+2243,The paraplegic Marty Coslaw is a character in which Stephen King story?,entretenimiento,0.29628288745880127,entretenimiento,False,False
+2254,Mob lawyer Frank Ragano claimed that this Florida mob boss was involved in JFKs assassination.,historia,0.26298004388809204,historia,False,False
+2269,"Fannie Flag wrote this 1991 Academy Award-nominated movie, starring Kathy Bates and Jessica Tandy, which was based on her best selling-novel written 4 years earlier.",entretenimiento,0.23937253654003143,entretenimiento,False,False
+2274,"The Animals, led by the Eric Burdon, broke on to the scene with this hit song.",entretenimiento,0.29418808221817017,entretenimiento,False,False
+2277,"This chocolate flavored milk drink, test-marketed by Nestle in 2002, was an utter failure.",ciencia,0.18896642327308655,ciencia,False,False
+2298,What group gave us the U.S. #1 song Dont You Want Me in 1982?,entretenimiento,0.2559312880039215,entretenimiento,False,False
+2312,In what movie did Michael Douglas star opposite Kathleen Turner and Danny DeVito?,entretenimiento,0.2946200668811798,entretenimiento,False,False
+2323,The Safety Dance was a hit single in 1983 for this Canadian band.,deporte,0.23649193346500397,deporte,False,False
+2329,He invented the idea of an ATM in the late 1930s and persuaded what is now Citicorp to give it a trial.,historia,0.29527485370635986,historia,False,False
+2330,What song by Little Eva was a #1 song on the U. S charts in 1962?,entretenimiento,0.29528531432151794,entretenimiento,False,False
+2337,How does the last season of the show Newhart end?,deporte,0.2888829708099365,deporte,False,False
+2339,This British group had a big hit song in 1972 called Long Cool Woman in a Black Dress.,entretenimiento,0.24608701467514038,entretenimiento,False,False
+2358,"Which Elvis Presley song contains the lyrics, Well, the Bell hops tears keep flowin, and the desk clerks dressed in black.?",entretenimiento,0.2909175455570221,entretenimiento,False,False
+2372,Who is the Clone Commander of the 501st legion in the Star Wars movies?,entretenimiento,0.29381263256073,entretenimiento,False,False
+2373,"In episode 5 of Flavor of Love, which contestant decided to leave the competition?",entretenimiento,0.29118630290031433,entretenimiento,False,False
+2380,This song received the Grammy Award for Record of the Year in 1986.,entretenimiento,0.24283654987812042,entretenimiento,False,False
+2406,"This TV star had a 1977 hit with Dont Give Up on Us which peacefully proclaimed that the future of the couples relationship is written in the moonlight, painted on the stars.",entretenimiento,0.2671726942062378,entretenimiento,False,False
+2414,"This garment, which replaced the corset, is constructed of elasticized fabric and usually fastened by hook and eye closures.",ciencia,0.2958971858024597,ciencia,False,False
+2422,He created Chanel No. 5 for Coco Chanel.,arte,0.2844887971878052,arte,False,False
+2424,This delectable chocolate dessert is named after fungi rooted out of the ground by pigs.,arte,0.28847044706344604,arte,False,False
+2428,"In 1996, this keyboardist and songwriter asked Emppu Vuorinen and Tarja Turunen to join his project, thus forming power metal band Nightwish.",historia,0.2932823598384857,arte,True,False
+2441,"He was the longest-serving Commandant of the Marine Corps, often referred to as the grand old man of the Marine Corps.",historia,0.28282326459884644,historia,False,False
+2445,"Originally written in French, this 1949 Samuel Beckett play is about Vladimir and Estragon who expect a man, they barely know, to arrive.",arte,0.2940027117729187,arte,False,False
+2447,This drummer joined The Red Hot Chili Peppers in 1988.,geografia,0.27943068742752075,geografia,False,False
+2451,Nicole Kidman starred with Matt Dillon and Joaquin Phoenix in this novel-based movie about an older woman who seduces a teenage boy and convinces him to kill her husband.,entretenimiento,0.27160781621932983,entretenimiento,False,False
+2456,Winona Ryders performance in this movie earned her a nomination for the Razzie Award for Worst Actress.,entretenimiento,0.23892417550086975,entretenimiento,False,False
+2459,"The King Black Dragon was the highest level monster in Runescape until 7 September 2004, when it was replaced by which of the following?",geografia,0.2949659824371338,geografia,False,False
+2470,What are the first names of the Winchester brothers on the TV show Supernatural?,entretenimiento,0.28935879468917847,entretenimiento,False,False
+2528,This coastal defence site was built on the Isle of Wight to protect Great Britain from French invasion.,historia,0.29115796089172363,historia,False,False
+2561,Which character on Seinfeld was played by an actress whose name was Dizzy Lizzy?,entretenimiento,0.28925755620002747,entretenimiento,False,False
+2565,Who are the moles working for the FBI in Season 7 of 24?,geografia,0.27748194336891174,geografia,False,False
+2613,"This 1983 gangster film, directed by Brian De Palma, stars Michelle Pfeiffer as a drugged up girlfriend of a Miami drug lord named Tony Montana.",entretenimiento,0.26947104930877686,entretenimiento,False,False
+2674,"This TV mom and her husband Charles were busy raising Mary, Laura and Carrie in Walnut Grove, Minnesota.",entretenimiento,0.2808707654476166,entretenimiento,False,False
+2687,This former SNL comic and 61* director was the voice of the one-eyed creature Mike Wazowski.,arte,0.24790412187576294,entretenimiento,True,False
+2700,"This Italian singer, who won the San Remo Music Festival twice, became popular in the United States in the 1950s with his song Volare.",entretenimiento,0.29232659935951233,entretenimiento,False,False
+2709,This 2003 movie stars Nicole Kidman and Jude Law as lovers torn apart by the Civil War and Renee Zelweger as a helping hand.,historia,0.29721176624298096,entretenimiento,True,False
+2714,"During the filming of which Eddie Murphy movie was the stunt double of actress Angela Bassett, Sonja Davis, killed?",entretenimiento,0.2933467626571655,entretenimiento,False,False
+2724,Kentucky Woman was a hit song for this Brooklyn born singer in 1967.,entretenimiento,0.28938931226730347,arte,True,False
+2738,Who plays the tattooed forensic specialist Abby Sciuto on the show NCIS?,entretenimiento,0.28676512837409973,entretenimiento,False,False
+2763,This group had a hit song with Play That Funky Music in 1976.,entretenimiento,0.28683382272720337,arte,True,False
+2768,What group recorded the song Boogie Shoes?,entretenimiento,0.28720399737358093,entretenimiento,False,False
+2781,Retired Marine Corps Major General Smedley Butler claimed that wealthy businessmen were plotting to overthrow this US President.,historia,0.2661348581314087,historia,False,False
+2783,This song was featured on the Rocky lll soundtrack and was a #1 song in 1982.,entretenimiento,0.2662726938724518,arte,True,False
+2787,Who played the character of Gilligan on the 60s sitcom Gilligans Island?,entretenimiento,0.2868712544441223,entretenimiento,False,False
+2812,"Which of these Bill Cosby films won the 1988 Razzie awards for Worst Picture, Worst Actor, and Worst Screenplay?",entretenimiento,0.2865167260169983,entretenimiento,False,False
+2814,This former member of Monty Python provided the voice of Merlin in the 2007 movie Shrek the Third.,entretenimiento,0.2980741262435913,entretenimiento,False,False
+2853,This musician sang about an Uptown Girl in 1983.,entretenimiento,0.2890017628669739,arte,True,False
+2855,"In the Petticoat Junction series, Uncle Joe Carson was played by this comical actor.",entretenimiento,0.2752593755722046,entretenimiento,False,False
+2863,What actress plays Annie Wilkes in the movie Misery?,entretenimiento,0.2827744483947754,entretenimiento,False,False
+2883,"The following lyrics are from which 1972 hit: Its gonna be a bright, bright sunshiny day?",entretenimiento,0.2785211205482483,arte,True,False
+2913,"What was the first Pink Floyd album, recorded without Syd Barrett, that was actually a movie soundtrack?",entretenimiento,0.24196375906467438,arte,True,False
+2933,"At the age of 14, this future general, born in Kefar Malal, Israel, joined the Haganah, an underground militia.",historia,0.2816507816314697,historia,False,False
+2951,Ernest Borgnine debuted on Broadway playing a male nurse in what production?,ciencia,0.2715471088886261,ciencia,False,False
+2955,This White Album tune is about an old fairy tale that John Lennon remembered from his youth.,arte,0.2916273772716522,arte,False,False
+2962,In 1963 this soundtrack broke the record for the most weeks as the number one album on the Billboard charts.,entretenimiento,0.29608163237571716,arte,True,False
+2969,This twenty-year-old was the only civilian killed during the Battle of Gettysburg.,historia,0.2675887644290924,historia,False,False
+3000,"In 1993 Bernie Mac was in a movie about two totally inept barbers, starring Ice-T and Ed Lover.",entretenimiento,0.2840900421142578,entretenimiento,False,False
+3002,Which of these is the last name of the two brothers who have each won the Cy Young Award given to the best Major League Baseball pitchers?,deporte,0.2926824986934662,deporte,False,False
+3053,Why did Marie Horton run away to a convent?,arte,0.29516327381134033,arte,False,False
+3063,Which of the following was the eldest of the Barkley boys in The Big Valley?,entretenimiento,0.2897748649120331,entretenimiento,False,False
+3069,Who is the only person Jack tortures in Season Four of 24?,historia,0.2586037516593933,entretenimiento,True,False
+3085,Which of the following doctors is least likely to ever be on call?,ciencia,0.2590107321739197,ciencia,False,False
+3091,In this film Nicole Kidman and Sandra Bullock play sisters who are witches and belong to a family that is cursed - any man who falls in love with a woman from the family will die tragically.,entretenimiento,0.2887897789478302,entretenimiento,False,False
+3131,"Ozzy lying on a hardwood floor decked all in white, thrusting a crucifix into the air.",arte,0.2518833875656128,arte,False,False
+3160,The song Queen of Hearts was a monster hit song for this singer in 1981.,entretenimiento,0.29656243324279785,entretenimiento,False,False
+3178,"All but one of these statements represents a common bond between the movies, The Terminal and Catch Me if You Can.",entretenimiento,0.2962046265602112,entretenimiento,False,False
+3183,"In 2004, Aerosmith released Honkin on Bobo, a blues-influenced album with many covers. Baby, Please Dont Go and You Gotta Move are perhaps the most well known. Which track on this album has Joe Perry on the vocals and Steven Tyler playing the harmonica?",entretenimiento,0.26640599966049194,arte,True,False
+3203,What famous Israeli liqueur comes in a genie shaped bottle and has a distinctive chocolate/orange flavor?,arte,0.2554936408996582,arte,False,False
+3210,What actor from the popular television show Married with Children guest-starred in an episode of the Ghost Whisperer?,entretenimiento,0.2980484962463379,entretenimiento,False,False
+3213,"This band, whose members included Jack Bruce and Ginger Baker, considered themselves the best-of-the-best, and named themselves accordingly.",deporte,0.25617170333862305,deporte,False,False
+3226,The Academy Award for Best Original Song for 1974 was given to this song.,arte,0.26494765281677246,arte,False,False
+3228,Who did Calvin marry on the TV show House of Payne?,entretenimiento,0.28998810052871704,entretenimiento,False,False
+3236,"What royal bride assumed the title Her Royal Highness, The Duchess of York when she married the second son of Queen Elizabeth II in 1986?",historia,0.2844111919403076,historia,False,False
+3241,Which Italian automobile manufacturer was set up in 1910 and has been part of the FIAT Group since 1986?,deporte,0.28672918677330017,deporte,False,False
+3258,"In 1961 Gregory Peck acted in this war movie which co-starred David Niven, Anthony Quinn, Stanley Baker, Irne Pappas, James Robertson Justice, and Richard Harris.",historia,0.2919975519180298,historia,False,False
+3269,"This artist made his debut in 1981 with Unwound and had number 1 hits in the 1990s with Love Without End, Amen, Ive Come to Expect It From You, I Cross My Heart, You Cant Make a Heart Love Somebody, Blue Clear Sky, Carried Away, One Night At a Time, and Round About Way.",entretenimiento,0.2862110435962677,entretenimiento,False,False
+3283,"This 80s show was centered around a detective named Sonny Crockett, who lived on a sailboat and always wore white clothing. His partners name was Ricardo Tubbs.",entretenimiento,0.29706788063049316,entretenimiento,False,False
+3287,What is the name Sookies husband played by actor Jackson Douglas on Gilmore Girls?,entretenimiento,0.28838396072387695,entretenimiento,False,False
+3311,Who is the driver of the limo Rosa enters in the movie 21?,entretenimiento,0.29944750666618347,entretenimiento,False,False
+3360,What actress played Granny on the sitcom The Beverly Hillbillies?,entretenimiento,0.2519737482070923,entretenimiento,False,False
+3372,Through the Fire was a hit song for this legendary RB diva in the 1980s.,entretenimiento,0.2811606526374817,entretenimiento,False,False
+3378,Which of these groups recorded a 2006 hit song featuring and produced by Timbaland?,entretenimiento,0.278075635433197,entretenimiento,False,False
+3387,"Blind, Americas Volume Dealer and Deliverance are albums released by what band?",arte,0.2941458523273468,arte,False,False
+3414,"This The Wonder Years character, portrayed by Josh Saviano, is Kevins lifelong best friend.",entretenimiento,0.295674204826355,entretenimiento,False,False
+3436,Which of these Days of Our Lives characters locked the cage at the circus so the killer could not get in?,entretenimiento,0.27784669399261475,entretenimiento,False,False
+3437,What actor stars as retired jewel thief opposite Grace Kelly in Alfred Hitchcocks romantic thriller To Catch a Thief?,entretenimiento,0.2978343367576599,entretenimiento,False,False
+3450,"In 1977, this President visited the poorest parts of The Bronx, giving people the impression that the entire borough was a slum.",geografia,0.26844871044158936,geografia,False,False
+3480,"Born in Oklahoma in 1903, this jazz singer nicknamed Mr. Five by Five was best known for his work with the Basie Band from 1935-1950.",entretenimiento,0.29629576206207275,entretenimiento,False,False
+3489,"Who is the ice-skating girl in the movie For Your Eyes Only, who has a crush on James Bond?",entretenimiento,0.29614174365997314,entretenimiento,False,False
+3490,What witch is killed when Dorothys house lands on her in the 1939 movie The Wizard of Oz?,entretenimiento,0.2989744544029236,entretenimiento,False,False
+3497,Which Star Trek Next Generation actor did not appear on Days of Our Lives?,entretenimiento,0.29923295974731445,entretenimiento,False,False
+3521,"He was a peanut farmer from Plains Georgia, a governor of Georgia and a graduate of the US Naval Academy.",historia,0.2918585538864136,historia,False,False
+3526,"In what movie did Jean-Claude Van Damme portray twin brothers who were separated at birth, but one of them was killed?",entretenimiento,0.2777045965194702,entretenimiento,False,False
+3545,This great alto player is most famous for playing on Billy Joels Just the Way You Are” and on Steely Dans Dr. Wu.,entretenimiento,0.25706547498703003,entretenimiento,False,False
+3546,Feels Like the First Time was one of the biggest songs to come out of 1977. Which group is responsible for giving us this great song?,historia,0.2627090811729431,historia,False,False
+3577,"This character, played by Simon Oakland, on Kolchak: The Night Stalker, was Kolchaks boss.",entretenimiento,0.2745055854320526,entretenimiento,False,False
+3622,"This breed of cat has a round head, large round eyes and very small ears bended forward and downward.",arte,0.28051093220710754,arte,False,False
+3625,This band had yet another hit in the 1980s with the song These Dreams.,historia,0.2549564838409424,historia,False,False
+3636,These female country singers released the song heard in the sound clip in 1986.,entretenimiento,0.28255677223205566,entretenimiento,False,False
+3658,"All of these movies but one, star Wallace Reid, considered to be one of the most attractive actors of the silent era.",entretenimiento,0.2783103883266449,entretenimiento,False,False
+3669,Which of these players was a pinch running specialist for the 1992 New York Mets?,deporte,0.29016315937042236,deporte,False,False
+3676,What was Nellie Olesons married name on the Little House on the Prairie series?,entretenimiento,0.2953526973724365,entretenimiento,False,False
+3682,"In 1972, this actor won the Oscar for Best Actor for his role in The Godfather, but refused to take his award in protest against the federal governments treatment of American Indians.",arte,0.268632709980011,arte,False,False
+3685,What singer joined Ray Charles for the song Crazy Old Soldier?,entretenimiento,0.29955974221229553,entretenimiento,False,False
+3699,What band gave us the song Wake Me up When September Ends.,entretenimiento,0.2957878112792969,entretenimiento,False,False
+3703,"This TV mom was married to Herman, who caused more trouble than her son Eddie.",entretenimiento,0.2844897210597992,entretenimiento,False,False
+3719,Step out the front door like a ghost into the night where no one notices the contrast of white on white,entretenimiento,0.2674981355667114,entretenimiento,False,False
+3721,Which Weasley boy got his ear cut off in the last book of the Harry Potter series?,geografia,0.29691606760025024,geografia,False,False
+3724,"Which one of the Jonas Brothers plays the tambourine, guitar, and keyboards?",entretenimiento,0.2943984866142273,arte,True,False
+3735,Which of these popular French fashion designers was not born in France?,entretenimiento,0.2946339249610901,entretenimiento,False,False
+3743,What actress did Andy Griffith marry in 1983?,entretenimiento,0.2879965007305145,,False,True
+3762,Which Beatles member staged a bed-in for peace with his new wife on their honeymoon?,entretenimiento,0.2791634798049927,entretenimiento,False,False
+3773,"This villainous literary character, created by Mark Twain, murders Dr. Robinson and plans to mutilate Widow Douglas.",arte,0.2661467492580414,arte,False,False
+3784,All Through the Night was a big hit song for this female singer in 1984.,entretenimiento,0.2940554618835449,entretenimiento,False,False
+3791,This female singer was telling us Dont Sleep In the Subway during the Summer of Love in 1967.,entretenimiento,0.26947158575057983,entretenimiento,False,False
+3817,What musical instrument did Aretha Franklin learn to play by herself when she was a child?,arte,0.2827545702457428,arte,False,False
+3842,Which of the following Weasleys from the Harry Potter series did not play Quidditch for the Gryffindor house team?,deporte,0.2688862979412079,deporte,False,False
+3845,"This U.S. automobile brand produces off-road vehicles, and was established in 1992.",deporte,0.2941124439239502,deporte,False,False
+3856,Which southwestern U.S. state actually has a law on the books making it illegal to sell or manufacture imitation cocaine?,entretenimiento,0.295721173286438,historia,True,False
+3861,This one hit wonder had a hit song in 1990 called Black Velvet.,entretenimiento,0.2865449786186218,arte,True,False
+3880,Which of the following is a song by Iron Maiden?,geografia,0.2971363365650177,arte,True,False
+3894,Who was U.S. President Abraham Lincolns wife?,historia,0.29448840022087097,historia,False,False
+3910,"What was the Black Panthers response when California passed the Mulford Act, a bill designed to ban the display of loaded weapons in 1967.",historia,0.2938452363014221,historia,False,False
+3912,"Wrong-Way Feldman, a reccurring character on the sitcom Gilligans Island, was portrayed by which actor?",entretenimiento,0.28111013770103455,entretenimiento,False,False
+3923,What happened to Joe Bidens first wife?,entretenimiento,0.29924046993255615,entretenimiento,False,False
+3936,"In 1996, this super talented female singer had a #1 hit in the United States with Youre Makin Me High.",entretenimiento,0.2866770029067993,arte,True,False
+3952,This group from the Summer of Love had a huge hit in 1967 with How Can I Be Sure.,entretenimiento,0.28237438201904297,entretenimiento,False,False
+3959,"A study on 2,018 women showed that the consumption of green tea and mushrooms decreases the risk of developing this disease by 90%.",ciencia,0.28597375750541687,ciencia,False,False
+3989,The song Only the Good Die Young appears on which Iron Maiden album?,arte,0.23438987135887146,arte,False,False
+4019,Who is widely regarded as the father of British Secret Service?,historia,0.28310447931289673,historia,False,False
+4041,"Which surgical attending from the medical drama Greys Anatomy delivered these words: The only person that can keep a promise so big is God, and I havent seen him pick up a scalpel lately.?",entretenimiento,0.2920496463775635,entretenimiento,False,False
+4047,This type of tobacco is the mildest of all blending tobaccos and has the highest level of natural dextrose.,ciencia,0.25336575508117676,ciencia,False,False
+4057,Ethel and Norman Thayer were Oscar-winning roles in this 1981 drama.,arte,0.27489620447158813,arte,False,False
+4067,Which two singers had a hit with The Whiskey Aint Workin No More?,entretenimiento,0.28653648495674133,entretenimiento,False,False
+4070,"During a tour with Pigface in the early 90s, this then rookie artist was caught sleeping at a backstage party and woke up to find his trademark dreadlocks snipped from his head by Al Jogenson, the front man of industrial metal band, Ministry.",entretenimiento,0.27311262488365173,entretenimiento,False,False
+4091,What was D.J.s full first name on the sitcom Full House?,entretenimiento,0.2941119372844696,entretenimiento,False,False
+4108,Steve Perry made his public debut as singer for this band in October 1977.,entretenimiento,0.29001784324645996,arte,True,False
+4208,Who played editor Charlie Hume in the TV series Lou Grant?,entretenimiento,0.2799217700958252,entretenimiento,False,False
+4167,Which of these former NFL quarterbacks has the most passing yards?,entretenimiento,0.29487454891204834,deporte,True,False
+4176,"This Broadway musical, set in pre-Nazi Austria, relates the exploits of an ex-nun who is sent out to be a governess to seven motherless children.",historia,0.2939457893371582,historia,False,False
+4183,This Oscar winning actress named her daughter Apple.,entretenimiento,0.290283203125,entretenimiento,False,False
+4189,"What late actor (April 3, 1924 – July 1, 2004), born in Omaha, made his home in Tahiti?",entretenimiento,0.2842252850532532,entretenimiento,False,False
+4202,What singer was responsible for giving us the colossal 1981 hit Bette Davis Eyes.,entretenimiento,0.28862959146499634,entretenimiento,False,False
+4229,This 1973 horror film was the second of many devilish movies.,arte,0.29425615072250366,entretenimiento,True,False
+4272,"Who played the mother Shirley partridge on the 70s television show, The Partridge Family?",entretenimiento,0.2833046317100525,entretenimiento,False,False
+4334,In the sitcom Father Knows Best what was the last name of Jim?,entretenimiento,0.28530263900756836,entretenimiento,False,False
+4338,Who played Reg Holsworth on the TV series Coronation Street?,entretenimiento,0.24598591029644012,entretenimiento,False,False
+4357,Who originally released the song Blue Monday in 1983?,entretenimiento,0.29035684466362,arte,True,False
+4364,In which Frank Sinatra film did Old Blue Eyes play Nathan Detroit?,entretenimiento,0.271395742893219,arte,True,False
+4370,Heath Ledger received his first Oscar nomination for his role in this movie.,entretenimiento,0.2751677930355072,entretenimiento,False,False
+4387,What actor won a Golden Globe for the leading role of Michael Scott in the American adaptation of the British series The Office?,entretenimiento,0.29556435346603394,entretenimiento,False,False
+4388,Who recorded Itsy Bitsy Teenie Weenie Yellow Polka Dot Bikini in 1960?,entretenimiento,0.2908358871936798,entretenimiento,False,False
+4412,Which of these bands released the song Mississippi Queen in 1970?,entretenimiento,0.2700147032737732,arte,True,False
+4425,"This Southern rock band formed in Jacksonville, Florida released Midnight Rider in 1970.",geografia,0.24158698320388794,arte,True,False
+4428,Which White Sox hitter had the highest career batting average?,entretenimiento,0.28842365741729736,deporte,True,False
+4449,Norman Greenbaum reached #3 in 1970 with this golden oldie.,entretenimiento,0.2899319529533386,entretenimiento,False,False
+4459,"In Desperate Housewives, what is Zach Youngs original name, given to him at birth?",entretenimiento,0.26094239950180054,geografia,True,False
+4467,How was First Lady Mrs. Dwight Eisenhower affectionately known?,entretenimiento,0.2908511757850647,entretenimiento,False,False
+4469,"In 1956, Tennessee businessman David Flexer had this great idea.",entretenimiento,0.2761509418487549,entretenimiento,False,False
+4478,Who is the actor who portrays Ron in all of the Harry Potter films?,entretenimiento,0.2867189347743988,arte,True,False
+4485,Welsh singer Bonnie Tyler had massive success with what #1 song in 1983?,entretenimiento,0.2778180241584778,arte,True,False
+4488,Who was the Captain of the U.S.S. Enterprise NCC-1701 E in the Star Trek series?,geografia,0.29815539717674255,geografia,False,False
+4541,Which of these actors set a record for most Best Actor Oscar nominations without winning?,entretenimiento,0.2672414481639862,entretenimiento,False,False
+4550,"Who was in the grave, which Homer Simpson thought to be his mothers?",arte,0.2972334027290344,entretenimiento,True,False
+4583,"Isaac Dickie Freeman is a Black gospel bass that wrote, arranged and sang bass for this gospel group.",arte,0.2904365360736847,arte,False,False
+4591,"A Florida-born trumpeter, this musician started playing with travelling dance bands right after high school graduation. From there went to play in several big bands in the 1940s. He took over for Dizzy Gillespie in Billy Eckstines band. Who was this jazz great who died in 1950 even before he was 28?",geografia,0.2951035797595978,arte,True,False
+4593,The song Knockin on Heavens Door was written and performed by this musician in 1973.,arte,0.28685611486434937,arte,False,False
+4602,What Academy Award did the 1997 comedy movie Men in Black receive?,entretenimiento,0.28334617614746094,entretenimiento,False,False
+4621,Who had a #1 song in 1989 with a remake of Harold Melvin And The Bluenotes hit If You Dont Know Me By Now?,entretenimiento,0.29516667127609253,arte,True,False
+4623,In what movie did Meryl Streep play a Catholic nun called Sister Aloysius?,entretenimiento,0.2863888144493103,entretenimiento,False,False
+4627,William Sanderson played the local weirdo Larry in Newhart. What were the names of his brothers?,entretenimiento,0.2836911678314209,entretenimiento,False,False
+4638,What band brought us Bungle in the Jungle from their 1974 album War Child?,entretenimiento,0.29665300250053406,arte,True,False
+4641,What special gift does the young Dalai Lama receive from Tibetan monks in the beginning of the 1997 movie Seven Years in Tibet?,arte,0.29330095648765564,entretenimiento,True,False
+4645,He was a Christian saint from Egypt and a prominent leader among the Desert Fathers.,historia,0.2961428761482239,ciencia,True,False
+4648,In 1992 Russell Crowe starred with Anthony Hopkins in this movie in which big business is taught to smell the roses.,entretenimiento,0.27069681882858276,entretenimiento,False,False
+4652,You Gots to Chill was a big hit in 1989 for this East Coast rap duo.,entretenimiento,0.290226548910141,entretenimiento,False,False
+4661,He scored an unexpected hit on the charts in 1955 with his version of Merle Travis Sixteen Tons.,entretenimiento,0.2807757258415222,entretenimiento,False,False
+4687,With which band did Fergie make her music debut?,entretenimiento,0.29226264357566833,arte,True,False
+4765,The oldest male stripper was that old when the record was documented.,historia,0.2855197787284851,ciencia,True,False
+4771,Which of these musicians is the original bassist for Alice in Chains?,entretenimiento,0.26350367069244385,arte,True,False
+4810,This animal is the second most expensive for zoos to maintain after the Giant Panda.,ciencia,0.26794707775115967,ciencia,False,False
+4814,This NFL great was the first player to get 14 interceptions in one season.,deporte,0.2862926125526428,deporte,False,False
+4820,"Who was the trainer of thoroughbred race horse, Seabiscuit, that rarely spoke?",deporte,0.2993733286857605,deporte,False,False
+4828,Heaven is a Place on Earth was the only ever #1 hit for this singer in 1987.,entretenimiento,0.2623024880886078,arte,True,False
+4833,Carol Connelly and Melvin Udall were Oscar-winning roles in this 1997 film.,entretenimiento,0.2376820296049118,entretenimiento,False,False
+4859,He was the first high-profile tennis player to be caught with a banned substance.,deporte,0.2982606291770935,deporte,False,False
+4889,This song from the Revolver album is about one of John Lennons first LSD trips.,arte,0.29049888253211975,arte,False,False
+4890,"Besides Orson Welles with Citizen Kane, who is the only lead actor of a Top Ten American classic who also (co-)directed the film he starred in?",arte,0.29398244619369507,entretenimiento,True,False
+4925,Who served as the Mets pitching coach in 1986?,arte,0.29857510328292847,deporte,True,False
+4936,He was a local politician with sexual habits Carrie wouldn’t put up with.,historia,0.2978607416152954,historia,False,False
+4942,Who established the first charitable organization for women in the United States?,arte,0.29013967514038086,historia,True,False
+4946,This man is the highest earning fashion designer.,arte,0.29947876930236816,arte,False,False
+4960,What black comedy-crime film stars Frances McDormand as a pregnant police chief who investigates a series of homicides?,entretenimiento,0.2681019604206085,entretenimiento,False,False
+4962,What actor played Alex Handris on the TV series One Day at a Time?,entretenimiento,0.2935026288032532,entretenimiento,False,False
+4976,"To many people he epitomized the 1950s rebel. He appeared in only eight movies but he was a true star. Who was this actor who starred in Giant, Rebel Without a Cause and East of Eden?",entretenimiento,0.2895429730415344,entretenimiento,False,False
+4986,Who played Bobs wife Emily on the 1970s sitcom The Newhart Show?,entretenimiento,0.28066521883010864,entretenimiento,False,False
+5023,In which movie does Edward Norton play a thief who tries to double-cross his partner (played by Robert De Niro)?,entretenimiento,0.297749400138855,entretenimiento,False,False
+5052,"Billionaire Mark Cuban is largely responsible for the development of this firm, founded in 1974 by theater owner Gary Meyer.",historia,0.276748925447464,historia,False,False
+5053,What actress starred opposite Hugh Grant in the 1999 romantic comedy Notting Hill?,entretenimiento,0.27612659335136414,entretenimiento,False,False
+5068,"What 1989 Christmas movie has the tagline, They lost the true spirit of Christmas...And found it locked in the heart of one little girl.?",entretenimiento,0.26876866817474365,entretenimiento,False,False
+5076,"That was the best ice cream soda I ever had were the last words of this Paterson, NJ born comic.",arte,0.2611590623855591,arte,False,False
+5089,Which character from the Charmed series foretold that the three sisters would become the most powerful witches in the world?,historia,0.27783167362213135,historia,False,False
+5090,Which shark is the fastest swimmer?,ciencia,0.28562843799591064,ciencia,False,False
+5098,For his performance in what action movie did Denzel Washington win his first Academy Award for Best Actor?,entretenimiento,0.2861027717590332,entretenimiento,False,False
+5105,Which former SNL comedian pretended to be deaf in the Seinfeld episode The Friars Club?,entretenimiento,0.2937453091144562,entretenimiento,False,False
+5122,"Who performed the hit single Sundown, included in the self-titled 1974 album?",entretenimiento,0.2913859188556671,entretenimiento,False,False
+5132,Who played bass for Black Sabbath?,entretenimiento,0.24899877607822418,arte,True,False
+5146,"Jerry Orbach received his first Tony Award nomination for his portrayal of Sky Masterson, in which Broadway show?",arte,0.2764735519886017,arte,False,False
+5152,"Burt Young was in this movie about three small time criminals who steal $300,000 from some very important mobsters.",entretenimiento,0.25853461027145386,entretenimiento,False,False
+5154,Who played Mindys father in Mork and Mindy?,entretenimiento,0.2811940312385559,entretenimiento,False,False
+5162,What group recorded the 1991 album called Achtung Baby?,arte,0.29929739236831665,arte,False,False
+5189,John Hammond spent almost his entire working life working for this record company.,entretenimiento,0.2972775399684906,entretenimiento,False,False
+5194,"The castaways on the sitcom Gilligans Island were on what boat, when they got stranded on the deserted island?",entretenimiento,0.2598317563533783,entretenimiento,False,False
+5226,This 1976 film was honored with the Oscar for Best Picture at the 49th Academy Awards ceremony in 1977.,entretenimiento,0.2819911241531372,entretenimiento,False,False
+5239,The wife of this country-western singer was instrumental in helping Ernest Tubb with his career.,entretenimiento,0.29545751214027405,arte,True,False
+5246,Who sang the 80s song Leader of the Band?,entretenimiento,0.2836090624332428,arte,True,False
+5267,Which of the following women was married to John D. Rockefeller?,arte,0.292906254529953,historia,True,False
+5277,He played bass on many of James Browns early hits before joining George Clintons band.,entretenimiento,0.26537442207336426,arte,True,False
+5278,Beyonce recorded the 2003 hit song Baby Boy together with what musician?,entretenimiento,0.2913798391819,arte,True,False
+5284,Who won the Razzie Award for Worst Actor for 1983?,entretenimiento,0.2793163061141968,entretenimiento,False,False
+5289,"This fish, which resembles the Angel fish, is recognized by its brightly coloured and patterned body, as well as by the dark band across its eyes.",geografia,0.28537601232528687,geografia,False,False
+5300,What actress played Waynes high school girlfriend Delores on the hit television show “The Wonder Years”?,entretenimiento,0.2807086706161499,entretenimiento,False,False
+5340,Why did Bruce Lees parents decide to send him to the United States at the age of 18?,historia,0.29633283615112305,historia,False,False
+5384,What Academy Award-winning actress received the Golden Raspberry Award for Worst Actress for the 1981 movie Mommie Dearest?,entretenimiento,0.2835533022880554,entretenimiento,False,False
+5400,"In this 2000 movie, Keanu Reese plays serial killer David Allen Griffin.",entretenimiento,0.2863878011703491,entretenimiento,False,False
+5514,"In the play Cymbeline, this dishonest Roman soldier tricked Posthumos into believing that he had seduced his wife, Imogen.",arte,0.2806788682937622,arte,False,False
+5442,What 70s punk icon played drums with Siouxsie and The Banshees at their first show?,entretenimiento,0.26728540658950806,arte,True,False
+5448,"Before Purple Rains director met actress and model Patricia Kotero (Apollonia), this woman was to be Princes girl in the movie.",entretenimiento,0.29426753520965576,entretenimiento,False,False
+5482,What was the name of Robert Kelsos wife on the TV show Scrubs?,entretenimiento,0.27912992238998413,entretenimiento,False,False
+5484,"Although he played a year for the New York Yankees organization, he was a number one selection for the Baltimore Colts.",deporte,0.29884105920791626,deporte,False,False
+5493,Which of these fighters was manufactured by North American Aviation in World War 2?,historia,0.28168168663978577,historia,False,False
+5500,What was the name of the family featured in the TV comedy Bewitched?,entretenimiento,0.2852330207824707,entretenimiento,False,False
+5509,The actress who played this Star Trek character ended up marrying a co-star after becoming pregnant.,entretenimiento,0.2872250974178314,entretenimiento,False,False
+5535,Poor Side of Town was a huge hit for this singer in 1966.,entretenimiento,0.2613981366157532,deporte,True,False
+5543,Which sister has an uncontrollable cough in the beginning of the novel Pride and Prejudice?,arte,0.2848450839519501,arte,False,False
+5562,Who has Lorelai not been in a relationship with in the series Gilmore Girls?,entretenimiento,0.2963525950908661,entretenimiento,False,False
+5565,"Of these four directors who filmed some of the Top 10 AFI American films, which one was NOT an American citizen?",arte,0.2962413728237152,arte,False,False
+5572,"On Christmas Eve, children from this country leave their shoes by the fireplace to be filled with gifts from Pere Noel.",geografia,0.2652010917663574,geografia,False,False
+5594,Who portrays Alan Stanwyk in the movie Fletch?,entretenimiento,0.28369659185409546,entretenimiento,False,False
+5599,This independent horror film tells the story of 3 student filmmakers who get lost in the woods and are tormented by a legend witch.,arte,0.2924681007862091,entretenimiento,True,False
+5603,What was Jacqueline Kennedys maiden name?,entretenimiento,0.2989791929721832,entretenimiento,False,False
+5612,What family have lived next door to the Rovers Return throughout Coronation Streets run?,deporte,0.25132453441619873,deporte,False,False
+5622,What shortstop for the 1983 Phillies wore uniform # 11?,arte,0.2828637361526489,deporte,True,False
+5624,Dolly Parton and Emmylou Harris cut the album Trio with this former lead singer of the Stone Poneys.,entretenimiento,0.29557403922080994,arte,True,False
+5625,Who played Long Hair in the John Wayne movie The Cowboys?,entretenimiento,0.29351115226745605,entretenimiento,False,False
+5636,Who is the lead guitarist and founding member of The Cardigans?,entretenimiento,0.28895214200019836,arte,True,False
+5637,What comedian directed and starred in the 2007 comedy movie I Think I Love My Wife?,entretenimiento,0.2935648560523987,entretenimiento,False,False
+5661,When Will I See You Smile Again? was a pretty big RB hit for this group in 1991.,historia,0.2759617567062378,arte,True,False
+5683,"Arnold Layne was the first single released by this British rock group fronted by guitarist and singer, Syd Barrett.",entretenimiento,0.24684496223926544,arte,True,False
+5704,"Which of the following actors did not appear in the 1988 Comedy, Earth Girls Are Easy?",entretenimiento,0.2746565341949463,entretenimiento,False,False
+5712,"He is the youngest NBA player to score 10,000 points.",deporte,0.2863916754722595,deporte,False,False
+5719,"What 1995 horror movie is this quote from: It folded her like a sheet, Mark!?",entretenimiento,0.29598596692085266,entretenimiento,False,False
+5722,"In this 2002 horror film, starring Naomi Watts, a girl is thrown down a well.",entretenimiento,0.2746737599372864,entretenimiento,False,False
+5757,"In 1979, she became the first person to swim from the Bahamas to Florida.",geografia,0.236092671751976,geografia,False,False
+5759,Captive raccoons are known for performing this vacuum activity.,entretenimiento,0.2918552756309509,ciencia,True,False
+5763,RB diva Toni Braxton named gave this unusual fabric name to her first-born child.,entretenimiento,0.2932056784629822,entretenimiento,False,False
+5768,"Which one of the following singers gave us Dont Give Up On Us, one of the sappiest love songs to come out of the 70s?",entretenimiento,0.2733863890171051,arte,True,False
+5779,Which character did Merlin Olsen play in the series Little House on the Prairie?,entretenimiento,0.2933366596698761,entretenimiento,False,False
+5818,"At the 71st Academy Awards in 1999, this 1998 film received the Academy Award for Best Picture.",entretenimiento,0.29795634746551514,entretenimiento,False,False
+5894,This hybrid is an Egyptian sacred baboon with the head of a dog.,arte,0.2971254885196686,arte,False,False
+5898,Which two members of the girl band All Saints are sisters?,entretenimiento,0.2790990471839905,arte,True,False
+5916,This hairless cat has a dog-like face and folded ears.,arte,0.2859693169593811,,False,True
+5942,"In the movie Goodfellas, the boys pull off a huge heist at what New York City airport?",geografia,0.2812745273113251,entretenimiento,True,False
+5968,What was the name of the former major league baseball great who managed the Rockford Peaches in the movie A League of Their Own?,deporte,0.2844845652580261,entretenimiento,True,False
+5979,This Philippine blood stew is made by using the heart and blood of a pig.,entretenimiento,0.28493401408195496,entretenimiento,False,False
+5989,In what movie did Leonardo DiCaprio star alongside Sharon Stone and Russell Crowe?,arte,0.29292023181915283,entretenimiento,True,False
+5995,Which of these four Calvin Klein fragrances was created first in 1985?,arte,0.27214860916137695,arte,False,False
+5999,"What British band was formed in Paisley, Scotland, in 1972 by Joe Egan and Gerry Rafferty?",geografia,0.2881091833114624,geografia,False,False
+6006,What actress wore a Valentino wedding dress when she married actor and jewelry designer Adam Shulman?,entretenimiento,0.29062581062316895,entretenimiento,False,False
+6014,What was the name of the water-fearing sheriff and his family in the 1975 thriller Jaws?,entretenimiento,0.2818003296852112,entretenimiento,False,False
+3743,What actress did Andy Griffith marry in 1983?,entretenimiento,0.2879965007305145,historia,True,False
+5916,This hairless cat has a dog-like face and folded ears.,arte,0.2859693169593811,arte,False,False
+6021,"In what movie does Milla Jovovich play a supreme humanoid being, who lands in the flying taxicab of a former major in the Special Forces?",entretenimiento,0.2788040041923523,entretenimiento,False,False
