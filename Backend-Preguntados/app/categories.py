@@ -44,7 +44,7 @@ CATEGORIES: list[dict[str, str]] = [
         "name": "arte",
         "label": "Arts, literature, and humanities",
         "description": (
-            "Questions about painting, sculpture, architecture, literature, "
+            "Questions about painting, sculpture, architecture, music, literature, "
             "poetry, philosophy, artists, writers, art movements, and humanities."
         ),
         "dataset_config": "humanities",
@@ -54,7 +54,7 @@ CATEGORIES: list[dict[str, str]] = [
         "name": "entretenimiento",
         "label": "Entertainment and popular culture",
         "description": (
-            "Questions about movies, television, music, actors, singers, "
+            "Questions about movies, television, actors, singers, "
             "celebrities, fictional characters, video games, and popular culture."
         ),
         "dataset_config": "entertainment",
