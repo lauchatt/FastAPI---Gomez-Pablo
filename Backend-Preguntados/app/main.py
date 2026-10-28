@@ -123,24 +123,45 @@ def list_questions(
 # OBTENER PREGUNTA POR ID
 # ============================================================
 
+
 @app.get("/questions/{question_id}")
 def get_question(
     question_id: int,
     db: Session = Depends(get_db),
 ):
-
-    question = (
-        db.query(Question)
+    result = (
+        db.query(Question, Categorization)
+        .join(
+            Categorization,
+            Question.id == Categorization.question_id,
+        )
         .filter(Question.id == question_id)
         .first()
     )
 
-    if not question:
+    if not result:
         return {
-            "error": "Pregunta no encontrada"
+            "error": "Pregunta no encontrada o sin categorizar"
         }
 
-    return question
+    question, categorization = result
+
+    return {
+        "id": question.id,
+        "question": question.question,
+        "answer": question.answer,
+        "option_1": question.option_1,
+        "option_2": question.option_2,
+        "option_3": question.option_3,
+        "option_4": question.option_4,
+        "source": question.source,
+
+        # Categoría asignada por el categorizador
+        "category": categorization.category_name,
+
+        "confidence_score": categorization.confidence_score,
+        "is_automatic": categorization.is_automatic,
+    }
 
 
 # ============================================================
