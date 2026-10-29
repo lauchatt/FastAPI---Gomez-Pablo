@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Player } from '../types/game';
+import { soundService } from '../services/soundService';
 import { Smartphone, ArrowRight } from 'lucide-react';
 
 interface TransitionScreenProps {
@@ -8,6 +9,9 @@ interface TransitionScreenProps {
 }
 
 export const TransitionScreen: React.FC<TransitionScreenProps> = ({ nextPlayer, onContinue }) => {
+  useEffect(() => {
+    soundService.playTurnChange();
+  }, []);
   return (
     <div className="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-indigo-950 via-purple-950 to-slate-950 text-white">
       <div className="w-full max-w-md bg-indigo-900/90 backdrop-blur-md rounded-3xl p-8 border-2 border-yellow-400/50 shadow-[0_20px_50px_rgba(0,0,0,0.7)] text-center relative overflow-hidden">

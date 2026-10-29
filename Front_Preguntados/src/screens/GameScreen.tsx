@@ -1,5 +1,5 @@
 import React from 'react';
-import { Player, CategoryKey } from '../types/game';
+import { Player, RouletteSector } from '../types/game';
 import { PlayerHUD } from '../components/PlayerHUD';
 import { Roulette } from '../components/Roulette';
 import { ErrorBanner } from '../components/ErrorBanner';
@@ -7,7 +7,7 @@ import { ErrorBanner } from '../components/ErrorBanner';
 interface GameScreenProps {
   players: Player[];
   currentPlayerIndex: number;
-  onSpinComplete: (category: CategoryKey) => void;
+  onSpinComplete: (sector: RouletteSector) => void;
 }
 
 export const GameScreen: React.FC<GameScreenProps> = ({
@@ -30,7 +30,7 @@ export const GameScreen: React.FC<GameScreenProps> = ({
           <h2 className="text-2xl font-black text-yellow-400 tracking-wide">
             ¡Turno de {currentPlayer.name}!
           </h2>
-          <p className="text-indigo-200 text-sm mt-1">Gira la ruleta para elegir una categoría</p>
+          <p className="text-indigo-200 text-sm mt-1">Gira la ruleta para elegir una categoría o corona</p>
         </div>
 
         <Roulette onSpinComplete={onSpinComplete} />

@@ -7,11 +7,14 @@ export const ErrorBanner: React.FC = () => {
 
   const checkApi = async () => {
     setChecking(true);
-    const baseUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+    const baseUrl = import.meta.env.VITE_API_BASE_URL || '';
     try {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), 2000);
-      const res = await fetch(`${baseUrl}/`, { signal: controller.signal }).catch(() => null);
+      let res = await fetch(`${baseUrl}/questions`, { signal: controller.signal }).catch(() => null);
+      if (!res || !res.ok) {
+        res = await fetch(`${baseUrl}/questions/category/geografia`, { signal: controller.signal }).catch(() => null);
+      }
       clearTimeout(timeoutId);
       setApiOnline(res ? true : false);
     } catch {

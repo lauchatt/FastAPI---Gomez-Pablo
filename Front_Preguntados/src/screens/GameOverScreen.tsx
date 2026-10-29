@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Player } from '../types/game';
+import { soundService } from '../services/soundService';
 import { Trophy, RotateCcw, Award } from 'lucide-react';
 
 interface GameOverScreenProps {
@@ -8,6 +9,9 @@ interface GameOverScreenProps {
 }
 
 export const GameOverScreen: React.FC<GameOverScreenProps> = ({ players, onRestart }) => {
+  useEffect(() => {
+    soundService.playVictory();
+  }, []);
   // Determine winner (highest score or most crowns)
   const sortedPlayers = [...players].sort((a, b) => {
     const crownsA = Object.values(a.crowns).filter(Boolean).length;

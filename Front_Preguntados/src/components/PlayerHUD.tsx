@@ -1,6 +1,6 @@
 import React from 'react';
 import { Player, CategoryKey } from '../types/game';
-import { Trophy, Crown } from 'lucide-react';
+import { Trophy, Crown, Star } from 'lucide-react';
 
 interface PlayerHUDProps {
   players: Player[];
@@ -38,25 +38,27 @@ export const PlayerHUD: React.FC<PlayerHUDProps> = ({ players, currentPlayerInde
 
             <div className="flex items-center justify-between mb-2">
               <div className="flex items-center gap-3">
-                <div className={`w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg shadow-inner ${
-                  isCurrent ? 'bg-yellow-400 text-indigo-950' : 'bg-indigo-800 text-indigo-200'
+                <div className={`w-12 h-12 rounded-2xl flex items-center justify-center text-2xl shadow-inner border-2 ${
+                  isCurrent ? 'bg-yellow-400/20 border-yellow-400 animate-pulse' : 'bg-indigo-900 border-indigo-700'
                 }`}>
-                  P{player.id}
+                  {player.avatar || '👑'}
                 </div>
                 <div>
                   <h3 className="font-extrabold text-lg text-white tracking-wide">{player.name}</h3>
-                  <p className="text-xs text-indigo-300 flex items-center gap-1">
-                    <Trophy className="w-3.5 h-3.5 text-yellow-400" /> Puntos: <span className="font-bold text-white">{player.score}</span>
-                  </p>
+                  <div className="flex items-center gap-3 text-xs text-indigo-300 mt-0.5">
+                    <span className="flex items-center gap-1">
+                      <Trophy className="w-3.5 h-3.5 text-yellow-400" /> Puntos: <strong className="text-white">{player.score}</strong>
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <Star className="w-3.5 h-3.5 text-amber-400" /> preguntas: <strong className="text-yellow-300">{player.accumulatedCrowns}/3</strong>
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* Crowns collection */}
+            {/* Insignias collection */}
             <div className="mt-2 pt-2 border-t border-indigo-800/40">
-              <span className="text-[11px] font-semibold text-indigo-300 uppercase tracking-wider block mb-1">
-                Coronas obtenidas:
-              </span>
               <div className="flex items-center gap-1.5 flex-wrap">
                 {(Object.keys(CATEGORY_COLORS) as CategoryKey[]).map((cat) => {
                   const hasCrown = player.crowns[cat];

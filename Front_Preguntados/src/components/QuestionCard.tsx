@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ApiQuestion, CategoryKey } from '../types/game';
+import { soundService } from '../services/soundService';
 import { Clock, HelpCircle, CheckCircle2, XCircle } from 'lucide-react';
 
 interface QuestionCardProps {
@@ -34,7 +35,12 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({ questionData, onAnsw
     }
 
     const timer = setInterval(() => {
-      setTimeLeft((prev) => prev - 1);
+      setTimeLeft((prev) => {
+        if (prev <= 6 && prev > 1) {
+          soundService.playTimerTick();
+        }
+        return prev - 1;
+      });
     }, 1000);
 
     return () => clearInterval(timer);
@@ -44,6 +50,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({ questionData, onAnsw
     if (answered) return;
     setAnswered(true);
     setIsCorrect(false);
+    soundService.playIncorrect();
     setTimeout(() => {
       onAnswerResult(false);
     }, 2000);
@@ -56,6 +63,12 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({ questionData, onAnsw
 
     const correct = option === questionData.answer;
     setIsCorrect(correct);
+
+    if (correct) {
+      soundService.playCorrect();
+    } else {
+      soundService.playIncorrect();
+    }
 
     setTimeout(() => {
       onAnswerResult(correct);
